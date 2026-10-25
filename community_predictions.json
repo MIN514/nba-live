@@ -1,5 +1,193 @@
 {
-  "source": "請填寫已獲授權的資料來源",
-  "updated_at": null,
-  "games": []
+  "source": "玩運彩 NBA 所有會員預測比例",
+  "source_url": "https://www.playsport.cc/predict/scale?allianceid=3",
+  "updated_at": "2026-10-25T17:02:59.098542+00:00",
+  "games": [
+    {
+      "date": "2026-10-26",
+      "away": "DET",
+      "home": "PHI",
+      "markets": {
+        "spread": {
+          "away": 48,
+          "home": 52,
+          "counts": {
+            "away": 377,
+            "home": 415
+          }
+        },
+        "moneyline": {
+          "away": 38,
+          "home": 62,
+          "counts": {
+            "away": 116,
+            "home": 189
+          }
+        },
+        "total": {
+          "over": 66,
+          "under": 34,
+          "counts": {
+            "over": 234,
+            "under": 119
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "away": "IND",
+      "home": "BKN",
+      "markets": {
+        "spread": {
+          "away": 52,
+          "home": 48,
+          "counts": {
+            "away": 297,
+            "home": 279
+          }
+        },
+        "moneyline": {
+          "away": 83,
+          "home": 17,
+          "counts": {
+            "away": 179,
+            "home": 37
+          }
+        },
+        "total": {
+          "over": 63,
+          "under": 37,
+          "counts": {
+            "over": 208,
+            "under": 120
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "away": "LAL",
+      "home": "UTA",
+      "markets": {
+        "spread": {
+          "away": 54,
+          "home": 46,
+          "counts": {
+            "away": 404,
+            "home": 340
+          }
+        },
+        "moneyline": {
+          "away": 85,
+          "home": 15,
+          "counts": {
+            "away": 218,
+            "home": 37
+          }
+        },
+        "total": {
+          "over": 73,
+          "under": 27,
+          "counts": {
+            "over": 342,
+            "under": 125
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "away": "MEM",
+      "home": "SAC",
+      "markets": {
+        "spread": {
+          "away": 61,
+          "home": 39,
+          "counts": {
+            "away": 394,
+            "home": 251
+          }
+        },
+        "moneyline": {
+          "away": 73,
+          "home": 27,
+          "counts": {
+            "away": 180,
+            "home": 65
+          }
+        },
+        "total": {
+          "over": 56,
+          "under": 44,
+          "counts": {
+            "over": 200,
+            "under": 159
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "away": "ORL",
+      "home": "NYK",
+      "markets": {
+        "spread": {
+          "away": 48,
+          "home": 52,
+          "counts": {
+            "away": 328,
+            "home": 362
+          }
+        },
+        "moneyline": {
+          "away": 13,
+          "home": 87,
+          "counts": {
+            "away": 35,
+            "home": 228
+          }
+        },
+        "total": {
+          "over": 51,
+          "under": 49,
+          "counts": {
+            "over": 189,
+            "under": 179
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "away": "TOR",
+      "home": "MIN",
+      "markets": {
+        "spread": {
+          "away": 45,
+          "home": 55,
+          "counts": {
+            "away": 343,
+            "home": 427
+          }
+        },
+        "moneyline": {
+          "away": 39,
+          "home": 61,
+          "counts": {
+            "away": 115,
+            "home": 181
+          }
+        },
+        "total": {
+          "over": 54,
+          "under": 46,
+          "counts": {
+            "over": 208,
+            "under": 175
+          }
+        }
+      }
+    }
+  ]
 }
