@@ -69,39 +69,18 @@ async function renderInjuries(code){
  box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">正在取得 ESPN 傷病資料…</p>${links}</div>`;
  try{
    const id=injuryTeamIds[code];if(!id)throw Error('找不到隊伍 ID');
-   let rows=[];
-   if(injuryCache[code]&&Date.now()-injuryCache[code].time<5*60*1000){rows=injuryCache[code].rows}
-   else{
-     const root='https://site.api.espn.com/apis/site/v2/sports/basketball/nba';
-     // ESPN's league endpoint often returns groups of injuries with team metadata.
-     let league=null;
-     try{league=await injuryFetch(root+'/injuries')}catch(e){}
-     if(league){
-       const groups=injuryEntries(league);
-       for(const group of groups){
-         const t=group.team||group.teamInfo||{};
-         const teamId=String(t.id||group.teamId||'');
-         const abbrev=String(t.abbreviation||group.abbreviation||'').toUpperCase();
-         if(teamId===id||abbrev===code||(code==='GSW'&&abbrev==='GS')){
-           rows.push(...injuryRows(group.injuries||group.items||[group]));
-         }
-       }
-       // Some ESPN variants return flat entries with an attached team.
-       if(!rows.length)rows=injuryRows(groups.filter(v=>String(v.team?.id||v.teamId||'')===id));
-     }
-     if(!rows.length){
-       const teamData=await injuryFetch(root+'/teams/'+id+'/injuries');
-       rows=injuryRows(teamData);
-     }
-     injuryCache[code]={time:Date.now(),rows};
-   }
+   const snapshot=await injuryFetch('./injuries.json?v='+Math.floor(Date.now()/300000));
+   if(snapshot.error)throw Error(snapshot.error);
+   if(!snapshot.updated_at)throw Error('傷病資料尚未同步');
+   let rows=(snapshot.teams||{})[code]||[];
+   const updated=new Date(snapshot.updated_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'});
    if(gen!==injuryGeneration)return;
-   if(!rows.length){box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">目前資料來源沒有提供可列出的傷病球員；這不代表球隊一定沒有傷兵。請以官方賽前報告為準。</p>${links}</div>`;return}
+   if(!rows.length){box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">最近一次同步沒有列出此隊傷病球員（更新：${esc(updated)}）；不代表確定全員健康。請以官方賽前報告為準。</p>${links}</div>`;return}
    const rank=x=>/^(out|inactive)$/i.test(x.st)?0:/doubtful/i.test(x.st)?1:/questionable|game.time.decision/i.test(x.st)?2:3;
    rows.sort((a,b)=>rank(a)-rank(b));
    const tr=x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.pos||'—')}</td><td>${esc(x.st||'未標示')}</td><td>${esc(x.detail||'—')}</td><td>${esc(x.returnDate?String(x.returnDate).slice(0,10):'—')}</td></tr>`;
-   box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">來源：ESPN 傷病資訊。Out 為缺陣；Questionable／Day-To-Day 不代表確定缺陣。實際出賽以賽前官方公告為準。</p><div class="tablewrap"><table><thead><tr><th>球員</th><th>位置</th><th>狀態</th><th>傷病說明</th><th>預計復出</th></tr></thead><tbody>${rows.map(tr).join('')}</tbody></table></div>${links}</div>`;
- }catch(e){if(gen!==injuryGeneration)return;box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">目前無法直接讀取 ESPN 傷病資料（${esc(String(e.message||'來源限制'))}）。可能是來源限制或暫時故障，並非確認無人缺陣。</p>${links}</div>`}
+   box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">來源：ESPN 傷病資訊（最近同步：${esc(updated)}，非即時）。Out 為缺陣；Questionable／Day-To-Day 不代表確定缺陣。實際出賽以賽前官方公告為準。</p><div class="tablewrap"><table><thead><tr><th>球員</th><th>位置</th><th>狀態</th><th>傷病說明</th><th>預計復出</th></tr></thead><tbody>${rows.map(tr).join('')}</tbody></table></div>${links}</div>`;
+ }catch(e){if(gen!==injuryGeneration)return;box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">目前無法取得 GitHub 傷病同步資料（${esc(String(e.message||'來源限制'))}）。可能是來源限制或暫時故障，並非確認無人缺陣。</p>${links}</div>`}
 }
 
 function render(){if(!names[chosen])return;$('profile').innerHTML=`<div class="card teams"><img src="${logo(chosen)}" alt="${esc(names[chosen])}"><div><div class="title">${esc(names[chosen])}</div><div class="muted">${chosen}｜已載入 ${events.filter(g=>g.a===chosen||g.h===chosen).length} 場賽事</div></div></div>`;const relevant=events.filter(g=>g.a===chosen||g.h===chosen),now=Date.now();const upcoming=relevant.filter(g=>!g.done&&new Date(g.date).getTime()>now-5*3600000).sort((a,b)=>new Date(a.date)-new Date(b.date));const past=relevant.filter(g=>g.done).sort((a,b)=>new Date(b.date)-new Date(a.date));$('next').innerHTML=upcoming.length?card(upcoming[0]):'<div class="card empty">目前資料範圍內尚未找到下一場賽程</div>';const pageCount=Math.max(1,Math.ceil(past.length/5));gamePage=Math.min(gamePage,pageCount-1);$('gamePage').innerHTML=Array.from({length:pageCount},(_,i)=>`<option value="${i}" ${i===gamePage?'selected':''}>第 ${i+1} 頁｜第 ${i*5+1}～${Math.min((i+1)*5,past.length)} 場</option>`).join('');$('gamePage').disabled=!past.length;$('gamePageInfo').textContent=`共 ${past.length} 場已完賽｜${pageCount} 頁`;$('games').innerHTML=past.length?past.slice(gamePage*5,gamePage*5+5).map(card).join(''):'<div class="card empty">目前資料範圍內沒有已完賽紀錄</div>';renderInjuries(chosen)}
