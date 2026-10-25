@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""Fetch ESPN NBA injury reports and save a validated JSON snapshot."""
+"""Update NBA injuries and estimated return dates from ESPN."""
 
 import datetime as dt
 import json
@@ -30,124 +30,147 @@ ABBR.update({
 })
 
 
+def first_value(*values):
+    for value in values:
+        if value is not None and value != "":
+            return value
+    return ""
+
+
+def as_dict(value):
+    return value if isinstance(value, dict) else {}
+
+
 def label(value):
     if isinstance(value, str):
         return value
 
     if isinstance(value, dict):
-        return str(
-            value.get("description")
-            or value.get("displayName")
-            or value.get("name")
-            or value.get("abbreviation")
-            or value.get("detail")
-            or ""
-        )
+        return str(first_value(
+            value.get("description"),
+            value.get("displayName"),
+            value.get("name"),
+            value.get("abbreviation"),
+            value.get("detail")
+        ))
 
     return ""
 
 
 def entries(group):
-    if isinstance(group, list):
-        return group
+    for key in ("injuries", "items", "athletes"):
+        value = group.get(key)
 
-    if isinstance(group, dict):
-        for key in ("injuries", "items", "athletes"):
-            value = group.get(key)
-            if isinstance(value, list):
-                return value
+        if isinstance(value, list):
+            return value
 
     return []
 
 
 def team_code(group):
-    """Identify the NBA team using ESPN's injury group ID."""
+    team = as_dict(first_value(
+        group.get("team"),
+        group.get("teamInfo")
+    ))
 
-    team = group.get("team") or group.get("teamInfo") or {}
-
-    if not isinstance(team, dict):
-        team = {}
-
-    # Important fix: ESPN injury groups use a top-level id.
-    team_id = str(
-        team.get("id")
-        or group.get("teamId")
-        or group.get("id")
-        or ""
-    )
+    team_id = str(first_value(
+        team.get("id"),
+        group.get("teamId"),
+        group.get("id")
+    ))
 
     if team_id in IDS:
         return IDS[team_id]
 
-    abbreviation = str(
-        team.get("abbreviation")
-        or group.get("abbreviation")
-        or ""
-    ).upper()
+    abbreviation = str(first_value(
+        team.get("abbreviation"),
+        group.get("abbreviation")
+    )).upper()
 
     return ABBR.get(abbreviation)
 
 
+def find_return_date(injury):
+    details = as_dict(injury.get("details"))
+
+    # Only use explicitly identified return-date fields.
+    # Never use the injury report's publication date.
+    keys = (
+        "returnDate",
+        "expectedReturnDate",
+        "estimatedReturnDate",
+        "returnsAt",
+        "expectedReturn",
+        "estimatedReturn"
+    )
+
+    for container in (injury, details):
+        for key in keys:
+            value = container.get(key)
+
+            if isinstance(value, str) and value.strip():
+                return value.strip()
+
+            if isinstance(value, dict):
+                date = first_value(
+                    value.get("date"),
+                    value.get("value"),
+                    value.get("displayValue")
+                )
+
+                if date:
+                    return str(date)
+
+    return ""
+
+
 def parse_player(injury):
-    athlete = injury.get("athlete") or injury.get("player") or {}
+    athlete = as_dict(first_value(
+        injury.get("athlete"),
+        injury.get("player")
+    ))
 
-    if not isinstance(athlete, dict):
-        athlete = {}
+    details = as_dict(injury.get("details"))
 
-    name = (
-        athlete.get("displayName")
-        or athlete.get("fullName")
-        or injury.get("displayName")
-        or injury.get("name")
+    name = first_value(
+        athlete.get("displayName"),
+        athlete.get("fullName"),
+        injury.get("displayName"),
+        injury.get("name")
     )
 
     if not name:
         return None
 
-    position = athlete.get("position") or injury.get("position") or {}
-
-    status = injury.get("status") or injury.get("type") or ""
-
-    if isinstance(status, dict):
-        status = (
-            status.get("description")
-            or status.get("name")
-            or status.get("type")
-            or ""
-        )
-
-    details = injury.get("details") or {}
-
-    if not isinstance(details, dict):
-        details = {"detail": str(details)}
-
-    detail = (
-        details.get("detail")
-        or details.get("type")
-        or injury.get("description")
-        or injury.get("shortComment")
-        or injury.get("longComment")
-        or ""
+    position = first_value(
+        athlete.get("position"),
+        injury.get("position")
     )
 
-    return_date = (
-        injury.get("returnDate")
-        or injury.get("returnsAt")
-        or injury.get("estimatedReturnDate")
-        or ""
+    status = first_value(
+        injury.get("status"),
+        injury.get("type")
+    )
+
+    reason = first_value(
+        details.get("type"),
+        details.get("detail"),
+        injury.get("description"),
+        injury.get("shortComment"),
+        injury.get("longComment")
     )
 
     return {
         "name": str(name),
         "pos": label(position),
         "st": label(status),
-        "detail": label(detail),
-        "returnDate": str(return_date)
+        "detail": label(reason),
+        "returnDate": find_return_date(injury)
     }
 
 
 def main():
-    print("Fetching ESPN NBA injuries...", flush=True)
+    print("Fetching ESPN NBA injury report...", flush=True)
 
     request = urllib.request.Request(
         URL,
@@ -157,39 +180,27 @@ def main():
         }
     )
 
-    with urllib.request.urlopen(request, timeout=25) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=25
+    ) as response:
         payload = json.load(response)
 
     if not isinstance(payload, dict):
-        raise RuntimeError("ESPN did not return a JSON object")
+        raise RuntimeError("ESPN response is not a JSON object")
 
     groups = payload.get("injuries")
 
-    if not isinstance(groups, list):
-        raise RuntimeError("ESPN injury data format is invalid")
-
-    if not groups:
+    if not isinstance(groups, list) or not groups:
         raise RuntimeError(
-            "ESPN returned an empty injury list; old data preserved"
+            "ESPN injury list is unavailable; old file preserved"
         )
-
-    print("Injury groups:", len(groups), flush=True)
-
-for group in groups:
-    if isinstance(group, dict):
-        for injury in entries(group):
-            if isinstance(injury, dict):
-                print(
-                    "RETURN DATE SAMPLE:",
-                    json.dumps(injury, ensure_ascii=False)[:5000],
-                    flush=True
-                )
-                break
-        break
 
     teams = {code: [] for code in IDS.values()}
 
     unmatched = []
+    total_entries = 0
+    return_dates_found = 0
 
     for group in groups:
         if not isinstance(group, dict):
@@ -208,19 +219,60 @@ for group in groups:
             if not isinstance(injury, dict):
                 continue
 
+            total_entries += 1
             player = parse_player(injury)
 
             if player:
                 teams[code].append(player)
 
+                if player["returnDate"]:
+                    return_dates_found += 1
+
     total = sum(len(players) for players in teams.values())
 
+    print("ESPN team groups:", len(groups), flush=True)
+    print("Injury entries:", total_entries, flush=True)
     print("Players parsed:", total, flush=True)
-    print("Unmatched teams:", unmatched, flush=True)
+    print("Return dates found:", return_dates_found, flush=True)
+    print("Unmatched groups:", unmatched, flush=True)
 
     if total == 0:
         raise RuntimeError(
-            "No injury players parsed; existing JSON preserved"
+            "No players parsed; existing file preserved"
+        )
+
+    # Diagnostic: show field names, without dumping player details.
+    sample = None
+
+    for group in groups:
+        if not isinstance(group, dict):
+            continue
+
+        items = entries(group)
+
+        if items and isinstance(items[0], dict):
+            sample = items[0]
+            break
+
+    if sample:
+        print(
+            "Sample injury fields:",
+            list(sample.keys()),
+            flush=True
+        )
+
+        details = as_dict(sample.get("details"))
+
+        print(
+            "Sample details fields:",
+            list(details.keys()),
+            flush=True
+        )
+
+        print(
+            "Sample returnDate:",
+            find_return_date(sample) or "Not provided",
+            flush=True
         )
 
     output = {
@@ -232,11 +284,15 @@ for group in groups:
     }
 
     Path("injuries.json").write_text(
-        json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(
+            output,
+            ensure_ascii=False,
+            indent=2
+        ) + "\n",
         encoding="utf-8"
     )
 
-    print("Injuries synced successfully:", total, flush=True)
+    print("NBA injury data updated successfully!", flush=True)
 
 
 if __name__ == "__main__":
