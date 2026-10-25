@@ -45,7 +45,24 @@ with urllib.request.urlopen(req,timeout=25) as response:
     payload=json.load(response)
 if not isinstance(payload,dict) or not isinstance(payload.get('injuries'),list):
     raise RuntimeError('ESPN 傷病資料格式不符，保留舊檔')
+
 groups=payload['injuries']
+
+print('ESPN top-level keys:', list(payload.keys()), flush=True)
+print('Number of injury groups:', len(groups), flush=True)
+
+if groups and isinstance(groups[0], dict):
+    first = groups[0]
+    print('First group keys:', list(first.keys()), flush=True)
+    print('First group team:', first.get('team'), flush=True)
+    print('First group injuries type:', type(first.get('injuries')).__name__, flush=True)
+
+    sample = entries(first)
+    print('Number of entries in first group:', len(sample), flush=True)
+
+    if sample and isinstance(sample[0], dict):
+        print('First entry keys:', list(sample[0].keys()), flush=True)
+
 if not groups:
     raise RuntimeError('ESPN 回傳空清單，保留舊檔避免誤判')
 teams={code:[] for code in IDS.values()}
