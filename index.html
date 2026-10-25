@@ -39,7 +39,8 @@ a{color:#e1e8f2}
 .analysis-bars .right{text-align:left;font-weight:700}
 @media(max-width:520px){.analysis-grid{gap:8px}.analysis-cell{padding:10px}.analysis-cell .metric{font-size:18px}}
 
-/* Community prediction panel (no fabricated polling percentages) */
+/* Community prediction panel (verified input only) */
+.community-percent{display:flex;justify-content:space-between;gap:8px;margin:10px 0 6px;font-size:13px;font-weight:700;flex-wrap:wrap}.community-bar{height:10px;background:#536171;border-radius:999px;overflow:hidden}.community-bar span{display:block;height:100%;background:#e8edf4}.community-item details{margin-top:8px}
 .community-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}
 .community-item{background:#141a22;border:1px solid #414b57;border-radius:12px;padding:12px}
 .community-item b{display:block;margin-bottom:7px}.community-item .muted{line-height:1.6}
@@ -98,16 +99,34 @@ async function renderInjuries(code){
  }catch(e){if(gen!==injuryGeneration)return;box.innerHTML=`<div class="card"><b>${esc(names[code])}｜傷病／缺陣名單</b><p class="muted small">目前無法取得 GitHub 傷病同步資料（${esc(String(e.message||'來源限制'))}）。可能是來源限制或暫時故障，並非確認無人缺陣。</p>${links}</div>`}
 }
 
-// 網友支持比例沒有可驗證的公開資料介面時，僅提供來源入口，絕不虛構百分比。
+// 只顯示經授權取得、且與比賽日期及隊伍吻合的網友預測資料。
+let communityData={games:[]},communityState='尚未載入預測資料';
+const communityMarkets=[['moneyline','不讓分','客隊','主隊'],['spread','讓分','客隊','主隊'],['total','全場大小分','大分','小分'],['q1','第一節大小分','大分','小分'],['half','上半場大小分','大分','小分']];
+function communityPercent(v){const n=Number(v);return v!==null&&v!==undefined&&v!==''&&Number.isFinite(n)&&n>=0&&n<=100?n:null}
+function communityDate(s){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(s))}
+function communityMatch(g){if(!g)return null;const date=communityDate(g.date);return (communityData.games||[]).find(x=>x&&x.date===date&&x.away===g.a&&x.home===g.h)||null}
+function communityPanel(key,label,left,right,entry){
+ const p=communityPercent(entry?.away??entry?.over),q=communityPercent(entry?.home??entry?.under);
+ const valid=p!==null&&q!==null&&Math.abs(p+q-100)<1.01;
+ const counts=entry?.counts&&typeof entry.counts==='object'?entry.counts:null;
+ const countLeft=counts?.away??counts?.over,countRight=counts?.home??counts?.under;
+ const countText=v=>Number.isInteger(Number(v))&&Number(v)>=0?`（${Number(v)} 人）`:'';
+ const line=entry?.line!=null&&Number.isFinite(Number(entry.line))?`｜盤口 ${esc(entry.line)}`:'';
+ return `<div class="community-item"><b>${esc(label)}${line}</b>${valid?`<div class="community-percent"><span>${esc(left)} ${p}%${countText(countLeft)}</span><span>${esc(right)} ${q}%${countText(countRight)}</span></div><div class="community-bar"><span style="width:${p}%"></span></div>`:'<p class="small muted">暫無可驗證的支持率</p>'}</div>`;
+}
 function renderCommunity(){
  const node=$('community');if(!node)return;
- const now=Date.now();
- const relevant=events.filter(g=>g.a===chosen||g.h===chosen);
+ const now=Date.now(),relevant=events.filter(g=>g.a===chosen||g.h===chosen);
  const next=relevant.filter(g=>!g.done&&new Date(g.date).getTime()>now-5*3600000).sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
  const match=next?`${names[next.a]}（客） vs ${names[next.h]}（主）｜${dt(next.date)}`:'目前未找到下一場賽事';
- const markets=[['不讓分','主隊／客隊'],['全場大小分','全場大分／小分'],['第一節大小分','第一節大分／小分'],['上半場大小分','上半場大分／小分']];
- node.innerHTML=`<div class="card"><div class="title">${esc(match)}</div><p class="small muted">此區是網友預測方向，不是實際下注金額。本站目前無法直接取得可驗證的玩運彩網友支持比例，因此不顯示虛構百分比。</p><div class="community-grid">${markets.map(([name,detail])=>`<div class="community-item"><b>${name}</b><div class="small muted">${detail}</div><div class="small muted">支持比例：暫無可驗證資料</div><a class="community-link" href="https://www.playsport.cc/" target="_blank" rel="noopener noreferrer">前往玩運彩查看網友預測 ↗</a></div>`).join('')}</div><p class="statsnote">外部連結通往玩運彩首頁，請自行選擇 NBA 與對應賽事；不是直接開啟特定賽事，也不保證每種玩法均有投票資料。</p></div>`;
+ const record=communityMatch(next),source=communityData.source||'未指定來源';
+ const stamp=communityData.updated_at?new Date(communityData.updated_at):null;
+ const updated=stamp&&Number.isFinite(stamp.getTime())?stamp.toLocaleString('zh-TW',{timeZone:'Asia/Taipei'}):'未提供';
+ const panels=communityMarkets.map(([key,label,left,right])=>communityPanel(key,label,left,right,record?.markets?.[key])).join('');
+ node.innerHTML=`<div class="card"><div class="title">${esc(match)}</div><p class="small muted">網友預測支持率，不是實際下注人數或下注金額。僅顯示有來源、且日期與對戰隊伍相符的資料。</p><div class="community-grid">${panels}</div><p class="statsnote">資料狀態：${esc(communityState)}｜來源：${esc(source)}｜更新：${esc(updated)}。來源沒有提供的玩法會留空，不會推算。</p><p><a href="https://www.playsport.cc/predict/scale?allianceid=3" target="_blank" rel="noopener noreferrer">前往玩運彩 NBA 預測比例頁面 ↗</a></p><details><summary class="small">匯入已獲授權的網友預測 JSON</summary><p class="small muted">可選擇本機 JSON 檔案，立即在此瀏覽器顯示；不會上傳到伺服器。網站也會嘗試讀取同目錄的 community_predictions.json。</p><input id="communityUpload" type="file" accept=".json,application/json" aria-label="匯入網友預測資料"><p id="communityUploadStatus" class="small muted"></p></details></div>`;
+ const upload=$('communityUpload');if(upload)upload.addEventListener('change',async e=>{const file=e.target.files?.[0];if(!file)return;try{const j=JSON.parse(await file.text());if(!j||!Array.isArray(j.games))throw Error('缺少 games 陣列');communityData=j;communityState='已匯入本機檔案（僅此頁有效）';renderCommunity()}catch(err){$('communityUploadStatus').textContent='無法匯入：'+err.message}});
 }
+async function loadCommunity(){try{const r=await fetch('./community_predictions.json?t='+Math.floor(Date.now()/300000),{cache:'no-store'});if(!r.ok)throw Error('尚未提供資料檔');const j=await r.json();if(!Array.isArray(j.games))throw Error('格式不正確');communityData=j;communityState='已讀取資料檔';}catch(e){communityState='尚未取得授權資料';}renderCommunity()}
 function render(){if(!names[chosen])return;$('profile').innerHTML=`<div class="card teams"><img src="${logo(chosen)}" alt="${esc(names[chosen])}"><div><div class="title">${esc(names[chosen])}</div><div class="muted">${chosen}｜已載入 ${events.filter(g=>g.a===chosen||g.h===chosen).length} 場賽事</div></div></div>`;const relevant=events.filter(g=>g.a===chosen||g.h===chosen),now=Date.now();const upcoming=relevant.filter(g=>!g.done&&new Date(g.date).getTime()>now-5*3600000).sort((a,b)=>new Date(a.date)-new Date(b.date));const past=relevant.filter(g=>g.done).sort((a,b)=>new Date(b.date)-new Date(a.date));$('next').innerHTML=upcoming.length?card(upcoming[0]):'<div class="card empty">目前資料範圍內尚未找到下一場賽程</div>';const pageCount=Math.max(1,Math.ceil(past.length/5));gamePage=Math.min(gamePage,pageCount-1);$('gamePage').innerHTML=Array.from({length:pageCount},(_,i)=>`<option value="${i}" ${i===gamePage?'selected':''}>第 ${i+1} 頁｜第 ${i*5+1}～${Math.min((i+1)*5,past.length)} 場</option>`).join('');$('gamePage').disabled=!past.length;$('gamePageInfo').textContent=`共 ${past.length} 場已完賽｜${pageCount} 頁`;$('games').innerHTML=past.length?past.slice(gamePage*5,gamePage*5+5).map(card).join(''):'<div class="card empty">目前資料範圍內沒有已完賽紀錄</div>';renderInjuries(chosen);renderCommunity();renderAnalysis()}
 
 // ESPN core season statistics: 2027 is the ending year of the 2026–27 season, type 2 is regular season.
@@ -186,6 +205,6 @@ async function renderAnalysis(){
 function datestr(d){return d.getFullYear().toString()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0')}
 async function fetchMonth(month){const u=`https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=${month}&limit=500`;const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),11000);try{const res=await fetch(u,{cache:'no-store',signal:ctrl.signal});if(!res.ok)throw Error('HTTP '+res.status);const data=await res.json();return data.events||[]}finally{clearTimeout(timeout)}}
 async function update(){if(loading)return;loading=true;$('refresh').disabled=true;$('status').textContent='正在連線取得最新比分…';try{const today=new Date(),monthSet=new Set(['202610']);for(let i=-1;i<=1;i++){const d=new Date(today.getFullYear(),today.getMonth()+i,1);if(d>=new Date(2026,9,1)&&d<=new Date(2027,5,30))monthSet.add(datestr(d).slice(0,6))}let results=await Promise.allSettled([...monthSet].map(fetchMonth));let raw=results.filter(x=>x.status==='fulfilled').flatMap(x=>x.value);if(!raw.length)throw Error('無法取得賽事資料');const ids=new Set();events=raw.map(extract).filter(g=>g&&g.season===2&&!ids.has(g.id)&&ids.add(g.id));lastOk=Date.now();$('status').textContent=`✓ 更新時間：${new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date())}（台灣）｜共 ${events.length} 場｜每 60 秒更新`;render()}catch(e){$('status').textContent='⚠️ 即時資料暫時無法取得：'+e.message+'。請檢查網路或稍後再試。';if(!lastOk)events=[];render()}finally{loading=false;$('refresh').disabled=false}}
-$('search').addEventListener('input',e=>renderSelect(e.target.value.trim()));$('team').addEventListener('change',e=>{chosen=e.target.value;gamePage=0;render();renderStats()});$('gamePage').addEventListener('change',e=>{gamePage=Number(e.target.value)||0;render()});$('refresh').addEventListener('click',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastOk>45000)update()});renderSelect();renderStats();update();setInterval(()=>{if(!document.hidden)update()},60000);
+$('search').addEventListener('input',e=>renderSelect(e.target.value.trim()));$('team').addEventListener('change',e=>{chosen=e.target.value;gamePage=0;render();renderStats()});$('gamePage').addEventListener('change',e=>{gamePage=Number(e.target.value)||0;render()});$('refresh').addEventListener('click',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastOk>45000)update()});renderSelect();renderStats();loadCommunity();update();setInterval(()=>{if(!document.hidden){update();loadCommunity()}},60000);
 
 </script></body></html>
