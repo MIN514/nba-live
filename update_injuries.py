@@ -175,6 +175,18 @@ def main():
 
     print("Injury groups:", len(groups), flush=True)
 
+for group in groups:
+    if isinstance(group, dict):
+        for injury in entries(group):
+            if isinstance(injury, dict):
+                print(
+                    "RETURN DATE SAMPLE:",
+                    json.dumps(injury, ensure_ascii=False)[:5000],
+                    flush=True
+                )
+                break
+        break
+
     teams = {code: [] for code in IDS.values()}
 
     unmatched = []
