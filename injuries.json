@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T15:51:21.354316+00:00",
+  "updated_at": "2026-10-25T16:20:27.690747+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -173,18 +173,18 @@
     ],
     "DET": [
       {
-        "name": "Jalen Duren",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-09"
-      },
-      {
         "name": "Ausar Thompson",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-25"
+      },
+      {
+        "name": "Jalen Duren",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-09"
       }
     ],
     "GSW": [
