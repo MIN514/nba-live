@@ -1,0 +1,637 @@
+{
+  "updated_at": "2026-10-25T13:58:17.547746+00:00",
+  "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
+  "teams": {
+    "ATL": [
+      {
+        "name": "Mouhamed Gueye",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Fracture",
+        "returnDate": ""
+      },
+      {
+        "name": "Henri Veesaar",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": ""
+      }
+    ],
+    "BOS": [
+      {
+        "name": "Devin Carter",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": ""
+      }
+    ],
+    "BKN": [
+      {
+        "name": "Tyler Bilodeau",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
+        "returnDate": ""
+      },
+      {
+        "name": "Mikel Brown Jr.",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": ""
+      }
+    ],
+    "CHA": [
+      {
+        "name": "Grant Williams",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": ""
+      },
+      {
+        "name": "Coby White",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Kon Knueppel",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": ""
+      },
+      {
+        "name": "Kylan Boswell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "CHI": [
+      {
+        "name": "Patrick Williams",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Soreness",
+        "returnDate": ""
+      },
+      {
+        "name": "Noa Essengue",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Bruise",
+        "returnDate": ""
+      },
+      {
+        "name": "Nic Claxton",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": ""
+      }
+    ],
+    "CLE": [],
+    "DAL": [
+      {
+        "name": "Kyrie Irving",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": ""
+      },
+      {
+        "name": "Caleb Martin",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Tarik Biberovic",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Inflammation",
+        "returnDate": ""
+      },
+      {
+        "name": "Santi Aldama",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Cooper Flagg",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Dereck Lively II",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "DEN": [
+      {
+        "name": "Spencer Jones",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Not Specified",
+        "returnDate": ""
+      },
+      {
+        "name": "Cameron Johnson",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Alpha Diallo",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
+        "returnDate": ""
+      },
+      {
+        "name": "Julian Strawther",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Sprain",
+        "returnDate": ""
+      }
+    ],
+    "DET": [
+      {
+        "name": "Ausar Thompson",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Jalen Duren",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      }
+    ],
+    "GSW": [
+      {
+        "name": "Brandin Podziemski",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": ""
+      },
+      {
+        "name": "Al Horford",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": ""
+      },
+      {
+        "name": "Draymond Green",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": ""
+      },
+      {
+        "name": "Stephen Curry",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": ""
+      },
+      {
+        "name": "Gui Santos",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Undisclosed",
+        "returnDate": ""
+      },
+      {
+        "name": "Kristaps Porzingis",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": ""
+      },
+      {
+        "name": "Moses Moody",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Jimmy Butler III",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "HOU": [
+      {
+        "name": "Fred VanVleet",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": ""
+      },
+      {
+        "name": "Marcus Smart",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Steven Adams",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": ""
+      }
+    ],
+    "IND": [
+      {
+        "name": "Aaron Nesmith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": ""
+      },
+      {
+        "name": "Ben Sheppard",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": ""
+      },
+      {
+        "name": "Johnny Furphy",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "LAC": [
+      {
+        "name": "Bradley Beal",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Inflammation",
+        "returnDate": ""
+      },
+      {
+        "name": "Max Strus",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Plantar Fasciitis",
+        "returnDate": ""
+      },
+      {
+        "name": "Yanic Konan Niederhauser",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Brandon Ingram",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Jordan Miller",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "LAL": [
+      {
+        "name": "Adou Thiero",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Inflammation",
+        "returnDate": ""
+      },
+      {
+        "name": "Cameron Carr",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      }
+    ],
+    "MEM": [
+      {
+        "name": "Cedric Coward",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Zach Edey",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": ""
+      }
+    ],
+    "MIA": [],
+    "MIL": [],
+    "MIN": [
+      {
+        "name": "Donte DiVincenzo",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "NOP": [
+      {
+        "name": "Yves Missi",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Bruise",
+        "returnDate": ""
+      }
+    ],
+    "NYK": [
+      {
+        "name": "Jose Alvarado",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Sprain",
+        "returnDate": ""
+      }
+    ],
+    "OKC": [
+      {
+        "name": "Otega Oweh",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Nikola Topic",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Thomas Sorber",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "ORL": [
+      {
+        "name": "Jonathan Isaac",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Not Specified",
+        "returnDate": ""
+      },
+      {
+        "name": "Anthony Black",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Paolo Banchero",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Noah Penda",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Izaiyah Nelson",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "PHI": [
+      {
+        "name": "LeBron James",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": ""
+      },
+      {
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": ""
+      },
+      {
+        "name": "Jabari Walker",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": ""
+      },
+      {
+        "name": "Tacko Fall",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Dominick Barlow",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Fracture",
+        "returnDate": ""
+      },
+      {
+        "name": "Ariel Hukporti",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "PHX": [
+      {
+        "name": "Oso Ighodaro",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Mark Williams",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "POR": [
+      {
+        "name": "Chris Youngblood",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Soreness",
+        "returnDate": ""
+      },
+      {
+        "name": "Branden Carlson",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Concussion",
+        "returnDate": ""
+      },
+      {
+        "name": "Shaedon Sharpe",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "SAC": [
+      {
+        "name": "Keegan Murray",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": ""
+      },
+      {
+        "name": "Ben Simmons",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      },
+      {
+        "name": "Dylan Cardwell",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Maxime Raynaud",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Dislocated",
+        "returnDate": ""
+      }
+    ],
+    "SAS": [
+      {
+        "name": "Tobias Harris",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      },
+      {
+        "name": "Jayden Quaintance",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ],
+    "TOR": [
+      {
+        "name": "Nate Bittle",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Fracture",
+        "returnDate": ""
+      }
+    ],
+    "UTA": [
+      {
+        "name": "Trey Alexander",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Bruise",
+        "returnDate": ""
+      },
+      {
+        "name": "Jusuf Nurkic",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Strain",
+        "returnDate": ""
+      }
+    ],
+    "WAS": [
+      {
+        "name": "AJ Dybantsa",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Sprain",
+        "returnDate": ""
+      },
+      {
+        "name": "Tristan Vukcevic",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Pinched Nerve",
+        "returnDate": ""
+      },
+      {
+        "name": "Jamir Watkins",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Surgery",
+        "returnDate": ""
+      }
+    ]
+  }
+}
