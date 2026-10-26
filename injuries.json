@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T15:09:41.415876+00:00",
+  "updated_at": "2026-10-26T20:59:55.400442+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -40,10 +40,17 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Shoulder",
-        "returnDate": "2026-10-27"
+        "returnDate": "2026-10-30"
       }
     ],
     "CHA": [
+      {
+        "name": "Naz Reid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-10-26"
+      },
       {
         "name": "Kon Knueppel",
         "pos": "Guard",
@@ -103,12 +110,12 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Thumb",
-        "returnDate": "2026-10-26"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Cooper Flagg",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Shoulder",
         "returnDate": "2026-10-26"
       },
@@ -131,23 +138,23 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Dereck Lively II",
         "pos": "Center",
         "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-11-02"
       }
     ],
     "DEN": [
       {
         "name": "Alpha Diallo",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Wrist",
-        "returnDate": "2026-10-26"
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Cameron Johnson",
@@ -242,9 +249,9 @@
       {
         "name": "Marcus Smart",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Forearm",
-        "returnDate": "2026-10-26"
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Steven Adams",
@@ -256,10 +263,10 @@
     ],
     "IND": [
       {
-        "name": "Ivica Zubac",
-        "pos": "Center",
+        "name": "Andrew Nembhard",
+        "pos": "Guard",
         "st": "Day-To-Day",
-        "detail": "Ankle",
+        "detail": "Neck",
         "returnDate": "2026-10-26"
       },
       {
@@ -267,7 +274,21 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Hamstring",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Aaron Nesmith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
         "returnDate": "2026-10-26"
+      },
+      {
+        "name": "Ivica Zubac",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Ben Sheppard",
@@ -310,7 +331,7 @@
         "name": "Brandon Ingram",
         "pos": "Forward",
         "st": "Out",
-        "detail": "Heel",
+        "detail": "Achilles",
         "returnDate": "2026-11-08"
       },
       {
@@ -339,23 +360,30 @@
     ],
     "MEM": [
       {
+        "name": "Isaiah Stewart",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-10-26"
+      },
+      {
         "name": "Karim Lopez",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Knee",
-        "returnDate": "2026-10-26"
-      },
-      {
-        "name": "Zach Edey",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
         "returnDate": "2026-10-26"
       }
     ],
     "MIA": [],
     "MIL": [],
     "MIN": [
+      {
+        "name": "Anthony Edwards",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-26"
+      },
       {
         "name": "Donte DiVincenzo",
         "pos": "Guard",
@@ -377,32 +405,46 @@
       {
         "name": "Jose Alvarado",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-10-27"
+        "returnDate": "2026-10-28"
       }
     ],
     "OKC": [
+      {
+        "name": "Nikola Topic",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Thomas Sorber",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Cason Wallace",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Shoulder",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Chet Holmgren",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-10-28"
+      },
       {
         "name": "Jalen Williams",
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-02"
-      },
-      {
-        "name": "Jaylin Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-10-26"
-      },
-      {
-        "name": "Cason Wallace",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Shoulder",
-        "returnDate": "2026-10-26"
+        "returnDate": "2027-03-02"
       },
       {
         "name": "Otega Oweh",
@@ -410,29 +452,15 @@
         "st": "Out",
         "detail": "Achilles",
         "returnDate": "2027-07-01"
-      },
-      {
-        "name": "Nikola Topic",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Back",
-        "returnDate": "2026-10-26"
-      },
-      {
-        "name": "Thomas Sorber",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-10-26"
       }
     ],
     "ORL": [
       {
         "name": "Jalen Suggs",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-11-10"
       },
       {
         "name": "Jonathan Isaac",
@@ -511,9 +539,9 @@
       {
         "name": "Oso Ighodaro",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Oblique",
-        "returnDate": "2026-10-26"
+        "returnDate": "2026-10-30"
       },
       {
         "name": "Mark Williams",
@@ -610,11 +638,18 @@
     ],
     "UTA": [
       {
+        "name": "Jaxson Hayes",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
+        "returnDate": "2026-10-26"
+      },
+      {
         "name": "Trey Alexander",
         "pos": "Guard",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-26"
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Jusuf Nurkic",
