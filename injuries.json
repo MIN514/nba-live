@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T22:31:51.794343+00:00",
+  "updated_at": "2026-10-26T04:41:19.279038+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -143,10 +143,10 @@
     ],
     "DEN": [
       {
-        "name": "Spencer Jones",
+        "name": "Alpha Diallo",
         "pos": "Forward",
         "st": "Day-To-Day",
-        "detail": "Hamstring",
+        "detail": "Wrist",
         "returnDate": "2026-10-26"
       },
       {
@@ -157,11 +157,11 @@
         "returnDate": "2026-10-26"
       },
       {
-        "name": "Alpha Diallo",
+        "name": "Spencer Jones",
         "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-10-26"
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Julian Strawther",
@@ -172,6 +172,13 @@
       }
     ],
     "DET": [
+      {
+        "name": "Isaiah Joe",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hip",
+        "returnDate": "2026-10-27"
+      },
       {
         "name": "Ausar Thompson",
         "pos": "Guard",
@@ -248,6 +255,13 @@
       }
     ],
     "IND": [
+      {
+        "name": "Ivica Zubac",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-10-26"
+      },
       {
         "name": "T.J. McConnell",
         "pos": "Guard",
@@ -327,16 +341,9 @@
       {
         "name": "Karim Lopez",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-25"
-      },
-      {
-        "name": "Cedric Coward",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-10-25"
+        "returnDate": "2026-10-26"
       },
       {
         "name": "Zach Edey",
@@ -377,6 +384,27 @@
     ],
     "OKC": [
       {
+        "name": "Jalen Williams",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Jaylin Williams",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
+        "returnDate": "2026-10-26"
+      },
+      {
+        "name": "Cason Wallace",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
+        "returnDate": "2026-10-26"
+      },
+      {
         "name": "Otega Oweh",
         "pos": "Guard",
         "st": "Out",
@@ -399,6 +427,13 @@
       }
     ],
     "ORL": [
+      {
+        "name": "Jalen Suggs",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-28"
+      },
       {
         "name": "Jonathan Isaac",
         "pos": "Forward",
@@ -432,9 +467,9 @@
       {
         "name": "VJ Edgecombe",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Abdomen",
-        "returnDate": "2026-10-25"
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Tacko Fall",
@@ -515,9 +550,9 @@
       {
         "name": "Keegan Murray",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-10-25"
+        "returnDate": "2026-10-27"
       },
       {
         "name": "Ben Simmons",
