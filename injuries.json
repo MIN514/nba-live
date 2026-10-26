@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T04:41:19.279038+00:00",
+  "updated_at": "2026-10-26T15:09:41.415876+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -29,17 +29,17 @@
     ],
     "BKN": [
       {
+        "name": "Mikel Brown Jr.",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": "2026-10-27"
+      },
+      {
         "name": "Tyler Bilodeau",
         "pos": "Forward",
         "st": "Out",
         "detail": "Shoulder",
-        "returnDate": "2026-10-27"
-      },
-      {
-        "name": "Mikel Brown Jr.",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Rest",
         "returnDate": "2026-10-27"
       }
     ],
@@ -173,17 +173,17 @@
     ],
     "DET": [
       {
+        "name": "Ausar Thompson",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-10-27"
+      },
+      {
         "name": "Isaiah Joe",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Hip",
-        "returnDate": "2026-10-27"
-      },
-      {
-        "name": "Ausar Thompson",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
         "returnDate": "2026-10-27"
       },
       {
@@ -341,14 +341,14 @@
       {
         "name": "Karim Lopez",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-10-26"
       },
       {
         "name": "Zach Edey",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-26"
       }
@@ -377,7 +377,7 @@
       {
         "name": "Jose Alvarado",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-27"
       }
@@ -386,7 +386,7 @@
       {
         "name": "Jalen Williams",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-02"
       },
@@ -465,10 +465,24 @@
     ],
     "PHI": [
       {
+        "name": "Jabari Walker",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-28"
+      },
+      {
         "name": "VJ Edgecombe",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Abdomen",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Heel",
         "returnDate": "2026-10-28"
       },
       {
@@ -476,20 +490,6 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Quadriceps",
-        "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Jabari Walker",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Joel Embiid",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Heel",
         "returnDate": "2026-10-28"
       },
       {
@@ -550,7 +550,7 @@
       {
         "name": "Keegan Murray",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-27"
       },
@@ -596,7 +596,7 @@
       {
         "name": "Kawhi Leonard",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-10-28"
       },
