@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T04:58:44.412534+00:00",
+  "updated_at": "2026-10-27T14:26:17.217085+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -129,24 +129,24 @@
     ],
     "DEN": [
       {
-        "name": "Spencer Jones",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-10-28"
-      },
-      {
         "name": "Cameron Johnson",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-28"
       },
       {
         "name": "Alpha Diallo",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Wrist",
+        "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Spencer Jones",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Hamstring",
         "returnDate": "2026-10-28"
       },
       {
@@ -334,6 +334,13 @@
     ],
     "OKC": [
       {
+        "name": "Chet Holmgren",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-28"
+      },
+      {
         "name": "Alex Caruso",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -363,13 +370,6 @@
       },
       {
         "name": "Thomas Sorber",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Chet Holmgren",
         "pos": "Center",
         "st": "Out",
         "detail": "Knee",
@@ -482,6 +482,13 @@
     ],
     "POR": [
       {
+        "name": "Chris Youngblood",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-10-29"
+      },
+      {
         "name": "Branden Carlson",
         "pos": "Center",
         "st": "Day-To-Day",
@@ -494,13 +501,6 @@
         "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-27"
-      },
-      {
-        "name": "Chris Youngblood",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-10-29"
       },
       {
         "name": "Shaedon Sharpe",
