@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:35:05.408826+00:00",
+  "updated_at": "2026-10-28T15:04:44.474957+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -203,18 +203,18 @@
     ],
     "GSW": [
       {
-        "name": "Yaxel Lendeborg",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-10-28"
-      },
-      {
         "name": "Kristaps Porzingis",
         "pos": "Center",
         "st": "Out",
         "detail": "Illness",
         "returnDate": "2026-12-01"
+      },
+      {
+        "name": "Yaxel Lendeborg",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Foot",
+        "returnDate": "2026-10-28"
       },
       {
         "name": "Moses Moody",
@@ -490,6 +490,13 @@
       }
     ],
     "ORL": [
+      {
+        "name": "Anthony Black",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Personal",
+        "returnDate": "2026-10-28"
+      },
       {
         "name": "Jonathan Isaac",
         "pos": "Forward",
