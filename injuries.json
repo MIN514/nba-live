@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:04:44.474957+00:00",
+  "updated_at": "2026-10-28T21:01:35.724555+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -106,10 +106,10 @@
     "CLE": [],
     "DAL": [
       {
-        "name": "Santi Aldama",
+        "name": "Naji Marshall",
         "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-10-28"
       },
       {
@@ -117,7 +117,14 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Santi Aldama",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-10-30"
       },
       {
         "name": "Sergio de Larrea",
@@ -131,13 +138,6 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Thumb",
-        "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Naji Marshall",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
         "returnDate": "2026-10-28"
       },
       {
@@ -189,8 +189,15 @@
       {
         "name": "Isaiah Joe",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Ausar Thompson",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-10-28"
       },
       {
@@ -203,18 +210,18 @@
     ],
     "GSW": [
       {
-        "name": "Kristaps Porzingis",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Illness",
-        "returnDate": "2026-12-01"
-      },
-      {
         "name": "Yaxel Lendeborg",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Foot",
         "returnDate": "2026-10-28"
+      },
+      {
+        "name": "Kristaps Porzingis",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": "2026-12-01"
       },
       {
         "name": "Moses Moody",
@@ -235,9 +242,9 @@
       {
         "name": "Marcus Smart",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Forearm",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
       },
       {
         "name": "Alperen Sengun",
@@ -256,17 +263,17 @@
     ],
     "IND": [
       {
+        "name": "Tyrese Haliburton",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-09"
+      },
+      {
         "name": "Andrew Nembhard",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Neck",
-        "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Tyrese Haliburton",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
         "returnDate": "2026-10-28"
       },
       {
@@ -362,31 +369,38 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Oblique",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
       },
       {
         "name": "Adou Thiero",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Ziaire Williams",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Luka Doncic",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-10-30"
       }
     ],
     "MEM": [],
     "MIA": [
       {
-        "name": "Pelle Larsson",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-10-28"
-      },
-      {
         "name": "Simone Fontecchio",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
       }
     ],
     "MIL": [],
@@ -408,13 +422,6 @@
     ],
     "NOP": [
       {
-        "name": "Jordan Poole",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-10-28"
-      },
-      {
         "name": "Yves Missi",
         "pos": "Center",
         "st": "Out",
@@ -426,12 +433,19 @@
       {
         "name": "Jose Alvarado",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-30"
       }
     ],
     "OKC": [
+      {
+        "name": "Alex Caruso",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-04"
+      },
       {
         "name": "Thomas Sorber",
         "pos": "Center",
@@ -459,13 +473,6 @@
         "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-10-28"
-      },
-      {
-        "name": "Alex Caruso",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-10-31"
       },
       {
         "name": "Jalen Williams",
@@ -553,7 +560,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-04"
       },
       {
         "name": "Ariel Hukporti",
@@ -631,7 +638,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Calf",
-        "returnDate": "2026-10-28"
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Jayden Quaintance",
@@ -700,14 +707,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-10-30"
-      },
-      {
-        "name": "AJ Dybantsa",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-10-28"
+        "returnDate": "2027-02-25"
       },
       {
         "name": "Tristan Vukcevic",
