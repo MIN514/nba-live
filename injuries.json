@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T15:12:10.196763+00:00",
+  "updated_at": "2026-10-29T21:06:33.183945+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -31,31 +31,31 @@
       {
         "name": "Egor Demin",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Leg",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-07"
       },
       {
         "name": "Tyler Bilodeau",
         "pos": "Forward",
         "st": "Out",
         "detail": "Shoulder",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-01"
       }
     ],
     "CHA": [
-      {
-        "name": "Coby White",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Calf",
-        "returnDate": "2026-11-02"
-      },
       {
         "name": "Kon Knueppel",
         "pos": "Guard",
         "st": "Out",
         "detail": "Hamstring",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Coby White",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Calf",
         "returnDate": "2026-11-02"
       },
       {
@@ -75,17 +75,24 @@
     ],
     "CHI": [
       {
-        "name": "Tobe Awaka",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-10-30"
-      },
-      {
         "name": "Patrick Williams",
         "pos": "Forward",
         "st": "Out",
         "detail": "Groin",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Jalen Smith",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Finger",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Tobe Awaka",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-10-30"
       },
       {
@@ -96,7 +103,22 @@
         "returnDate": "2026-11-04"
       }
     ],
-    "CLE": [],
+    "CLE": [
+      {
+        "name": "Meleek Thomas",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Foot",
+        "returnDate": "2026-10-29"
+      },
+      {
+        "name": "Jaylon Tyson",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Neck",
+        "returnDate": "2026-10-29"
+      }
+    ],
     "DAL": [
       {
         "name": "Sergio de Larrea",
@@ -212,17 +234,24 @@
     ],
     "HOU": [
       {
-        "name": "Alperen Sengun",
-        "pos": "Center",
-        "st": "Day-To-Day",
+        "name": "Reed Sheppard",
+        "pos": "Guard",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Marcus Smart",
         "pos": "Guard",
         "st": "Out",
         "detail": "Forearm",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Alperen Sengun",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Back",
         "returnDate": "2026-10-30"
       },
       {
@@ -239,7 +268,7 @@
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-01"
       },
       {
         "name": "T.J. McConnell",
@@ -272,18 +301,18 @@
     ],
     "LAC": [
       {
-        "name": "Rui Hachimura",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Quadriceps",
-        "returnDate": "2026-10-30"
-      },
-      {
         "name": "Yanic Konan Niederhauser",
         "pos": "Center",
         "st": "Out",
         "detail": "Foot",
         "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Rui Hachimura",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Quadriceps",
+        "returnDate": "2026-10-30"
       },
       {
         "name": "Max Strus",
@@ -446,7 +475,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-10"
       },
       {
         "name": "Jalen Suggs",
@@ -525,6 +554,13 @@
     ],
     "POR": [
       {
+        "name": "Robert Williams III",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-29"
+      },
+      {
         "name": "Chris Youngblood",
         "pos": "Guard",
         "st": "Out",
@@ -587,18 +623,18 @@
     ],
     "TOR": [
       {
-        "name": "Nate Bittle",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-02"
-      },
-      {
         "name": "Kawhi Leonard",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Nate Bittle",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-02"
       }
     ],
     "UTA": [
