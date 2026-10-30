@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:01:46.772461+00:00",
+  "updated_at": "2026-10-30T20:44:45.983920+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -89,10 +89,10 @@
     ],
     "CHI": [
       {
-        "name": "Patrick Williams",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Groin",
+        "name": "Dailyn Swain",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
         "returnDate": "2026-10-30"
       },
       {
@@ -128,6 +128,13 @@
     ],
     "DAL": [
       {
+        "name": "Naji Marshall",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-10-30"
+      },
+      {
         "name": "Tarik Biberovic",
         "pos": "Forward",
         "st": "Out",
@@ -147,13 +154,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-02"
-      },
-      {
-        "name": "Naji Marshall",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-10-30"
       },
       {
         "name": "Dereck Lively II",
@@ -197,9 +197,9 @@
       {
         "name": "Isaiah Joe",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Jalen Duren",
@@ -271,6 +271,27 @@
     ],
     "IND": [
       {
+        "name": "Obi Toppin",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Johnny Furphy",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2027-01-02"
+      },
+      {
         "name": "Andrew Nembhard",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -292,13 +313,6 @@
         "returnDate": "2026-11-01"
       },
       {
-        "name": "T.J. McConnell",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-02"
-      },
-      {
         "name": "Ben Sheppard",
         "pos": "Guard",
         "st": "Out",
@@ -311,13 +325,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Johnny Furphy",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2027-01-02"
       }
     ],
     "LAC": [
@@ -366,10 +373,10 @@
     ],
     "LAL": [
       {
-        "name": "Cameron Carr",
-        "pos": "Guard",
+        "name": "Ziaire Williams",
+        "pos": "Forward",
         "st": "Out",
-        "detail": "Oblique",
+        "detail": "Foot",
         "returnDate": "2026-11-01"
       },
       {
@@ -378,13 +385,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-01"
-      },
-      {
-        "name": "Ziaire Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-10-30"
       }
     ],
     "MEM": [
@@ -446,6 +446,13 @@
       }
     ],
     "NYK": [
+      {
+        "name": "Karl-Anthony Towns",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
+        "returnDate": "2026-10-30"
+      },
       {
         "name": "Jose Alvarado",
         "pos": "Guard",
@@ -537,18 +544,18 @@
     ],
     "PHI": [
       {
-        "name": "Jabari Walker",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-10-31"
-      },
-      {
         "name": "Jaylen Brown",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Jabari Walker",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Tacko Fall",
@@ -590,17 +597,17 @@
     ],
     "POR": [
       {
+        "name": "Ja Morant",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-12-01"
+      },
+      {
         "name": "Robert Williams III",
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Knee",
-        "returnDate": "2026-10-31"
-      },
-      {
-        "name": "Ja Morant",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
         "returnDate": "2026-10-31"
       },
       {
