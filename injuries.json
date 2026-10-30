@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:41:25.387881+00:00",
+  "updated_at": "2026-10-30T15:01:46.772461+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -28,6 +28,13 @@
       }
     ],
     "BKN": [
+      {
+        "name": "Noah Clowney",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-10-30"
+      },
       {
         "name": "Egor Demin",
         "pos": "Guard",
