@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T21:06:33.183945+00:00",
+  "updated_at": "2026-10-30T05:41:25.387881+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -44,6 +44,13 @@
       }
     ],
     "CHA": [
+      {
+        "name": "Dennis Schroder",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Foot",
+        "returnDate": "2026-10-30"
+      },
       {
         "name": "Kon Knueppel",
         "pos": "Guard",
@@ -109,31 +116,10 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Foot",
-        "returnDate": "2026-10-29"
-      },
-      {
-        "name": "Jaylon Tyson",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Neck",
-        "returnDate": "2026-10-29"
+        "returnDate": "2026-10-31"
       }
     ],
     "DAL": [
-      {
-        "name": "Sergio de Larrea",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-10-30"
-      },
-      {
-        "name": "Naji Marshall",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-10-30"
-      },
       {
         "name": "Tarik Biberovic",
         "pos": "Forward",
@@ -149,6 +135,20 @@
         "returnDate": "2026-10-30"
       },
       {
+        "name": "Sergio de Larrea",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Naji Marshall",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-10-30"
+      },
+      {
         "name": "Dereck Lively II",
         "pos": "Center",
         "st": "Out",
@@ -157,6 +157,13 @@
       }
     ],
     "DEN": [
+      {
+        "name": "Alpha Diallo",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Personal",
+        "returnDate": "2026-10-30"
+      },
       {
         "name": "Cameron Johnson",
         "pos": "Forward",
@@ -170,13 +177,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-11-02"
-      },
-      {
-        "name": "Alpha Diallo",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Personal",
-        "returnDate": "2026-10-30"
       },
       {
         "name": "Julian Strawther",
@@ -264,9 +264,23 @@
     ],
     "IND": [
       {
+        "name": "Andrew Nembhard",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Neck",
+        "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Aaron Nesmith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-10-30"
+      },
+      {
         "name": "Ivica Zubac",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-01"
       },
@@ -301,18 +315,18 @@
     ],
     "LAC": [
       {
-        "name": "Yanic Konan Niederhauser",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-08"
-      },
-      {
         "name": "Rui Hachimura",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Quadriceps",
         "returnDate": "2026-10-30"
+      },
+      {
+        "name": "Yanic Konan Niederhauser",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-08"
       },
       {
         "name": "Max Strus",
@@ -345,35 +359,36 @@
     ],
     "LAL": [
       {
-        "name": "Ziaire Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-10-30"
-      },
-      {
-        "name": "Luka Doncic",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-10-30"
-      },
-      {
         "name": "Cameron Carr",
         "pos": "Guard",
         "st": "Out",
         "detail": "Oblique",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-01"
       },
       {
         "name": "Adou Thiero",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
+        "returnDate": "2026-11-01"
+      },
+      {
+        "name": "Ziaire Williams",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Foot",
         "returnDate": "2026-10-30"
       }
     ],
-    "MEM": [],
+    "MEM": [
+      {
+        "name": "Quinten Post",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-10-31"
+      }
+    ],
     "MIA": [
       {
         "name": "Simone Fontecchio",
@@ -406,7 +421,14 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-10-29"
+        "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Dejounte Murray",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Personal",
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Yves Missi",
@@ -422,7 +444,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-10-30"
+        "returnDate": "2026-11-04"
       }
     ],
     "OKC": [
@@ -510,6 +532,13 @@
       {
         "name": "Jabari Walker",
         "pos": "Forward",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Jaylen Brown",
+        "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-10-30"
@@ -558,14 +587,21 @@
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Knee",
-        "returnDate": "2026-10-29"
+        "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Ja Morant",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Chris Youngblood",
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-10-29"
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Shaedon Sharpe",
