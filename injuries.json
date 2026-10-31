@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:34:05.920356+00:00",
+  "updated_at": "2026-10-31T14:30:38.963039+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -40,7 +40,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Shoulder",
-        "returnDate": "2026-11-01"
+        "returnDate": "2026-11-06"
       }
     ],
     "CHA": [
@@ -465,6 +465,20 @@
       }
     ],
     "PHI": [
+      {
+        "name": "LeBron James",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": "2026-10-31"
+      },
       {
         "name": "Jaylen Brown",
         "pos": "Guard",
