@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T19:57:08.276930+00:00",
+  "updated_at": "2026-10-31T23:21:58.022505+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -20,6 +20,13 @@
     ],
     "BOS": [
       {
+        "name": "Mitchell Robinson",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": "2026-11-01"
+      },
+      {
         "name": "Devin Carter",
         "pos": "Guard",
         "st": "Out",
@@ -28,6 +35,13 @@
       }
     ],
     "BKN": [
+      {
+        "name": "Mikel Brown Jr.",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-02"
+      },
       {
         "name": "Egor Demin",
         "pos": "Guard",
@@ -176,6 +190,20 @@
     ],
     "GSW": [
       {
+        "name": "Gui Santos",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-01"
+      },
+      {
+        "name": "Draymond Green",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-02"
+      },
+      {
         "name": "Stephen Curry",
         "pos": "Guard",
         "st": "Out",
@@ -229,6 +257,20 @@
     ],
     "IND": [
       {
+        "name": "Ivica Zubac",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Aaron Nesmith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-01"
+      },
+      {
         "name": "Obi Toppin",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -248,13 +290,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2027-01-02"
-      },
-      {
-        "name": "Ivica Zubac",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-11-01"
       },
       {
         "name": "Ben Sheppard",
@@ -353,9 +388,9 @@
       {
         "name": "Rudy Gobert",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-10-31"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Anthony Edwards",
@@ -373,6 +408,13 @@
       }
     ],
     "NOP": [
+      {
+        "name": "Dejounte Murray",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Personal",
+        "returnDate": "2026-11-02"
+      },
       {
         "name": "Yves Missi",
         "pos": "Center",
@@ -480,13 +522,6 @@
     ],
     "PHI": [
       {
-        "name": "Jabari Walker",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-10-31"
-      },
-      {
         "name": "LeBron James",
         "pos": "Forward",
         "st": "Out",
@@ -494,25 +529,11 @@
         "returnDate": "2026-11-02"
       },
       {
-        "name": "Tacko Fall",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Quadriceps",
-        "returnDate": "2026-10-31"
-      },
-      {
         "name": "Joel Embiid",
         "pos": "Center",
         "st": "Out",
         "detail": "Foot",
         "returnDate": "2026-11-02"
-      },
-      {
-        "name": "Jaylen Brown",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-10-31"
       },
       {
         "name": "Dominick Barlow",
@@ -585,13 +606,6 @@
       }
     ],
     "SAS": [
-      {
-        "name": "Stephon Castle",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Head",
-        "returnDate": "2026-10-31"
-      },
       {
         "name": "Tobias Harris",
         "pos": "Forward",
