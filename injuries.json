@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T14:30:38.963039+00:00",
+  "updated_at": "2026-10-31T19:57:08.276930+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -91,18 +91,18 @@
     ],
     "CLE": [
       {
-        "name": "Jaylon Tyson",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-11-02"
-      },
-      {
         "name": "Meleek Thomas",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Foot",
         "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Jaylon Tyson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
       }
     ],
     "DAL": [
@@ -176,6 +176,13 @@
     ],
     "GSW": [
       {
+        "name": "Stephen Curry",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-02"
+      },
+      {
         "name": "Kristaps Porzingis",
         "pos": "Center",
         "st": "Out",
@@ -201,16 +208,16 @@
       {
         "name": "Reed Sheppard",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-10-31"
+        "returnDate": "2026-11-02"
       },
       {
-        "name": "Alperen Sengun",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-10-31"
+        "name": "Fred VanVleet",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Steven Adams",
@@ -344,6 +351,13 @@
     "MIL": [],
     "MIN": [
       {
+        "name": "Rudy Gobert",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-10-31"
+      },
+      {
         "name": "Anthony Edwards",
         "pos": "Guard",
         "st": "Out",
@@ -466,27 +480,6 @@
     ],
     "PHI": [
       {
-        "name": "LeBron James",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-10-31"
-      },
-      {
-        "name": "Joel Embiid",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-10-31"
-      },
-      {
-        "name": "Jaylen Brown",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-10-31"
-      },
-      {
         "name": "Jabari Walker",
         "pos": "Forward",
         "st": "Out",
@@ -494,11 +487,32 @@
         "returnDate": "2026-10-31"
       },
       {
+        "name": "LeBron James",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-02"
+      },
+      {
         "name": "Tacko Fall",
         "pos": "Center",
         "st": "Out",
         "detail": "Quadriceps",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-10-31"
+      },
+      {
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Jaylen Brown",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-10-31"
       },
       {
         "name": "Dominick Barlow",
@@ -525,20 +539,6 @@
       }
     ],
     "POR": [
-      {
-        "name": "Robert Williams III",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-10-31"
-      },
-      {
-        "name": "Chris Youngblood",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-10-31"
-      },
       {
         "name": "Ja Morant",
         "pos": "Guard",
@@ -586,6 +586,13 @@
     ],
     "SAS": [
       {
+        "name": "Stephon Castle",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Head",
+        "returnDate": "2026-10-31"
+      },
+      {
         "name": "Tobias Harris",
         "pos": "Forward",
         "st": "Out",
@@ -617,13 +624,6 @@
       }
     ],
     "UTA": [
-      {
-        "name": "Lauri Markkanen",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-10-31"
-      },
       {
         "name": "Jaren Jackson Jr.",
         "pos": "Forward",
