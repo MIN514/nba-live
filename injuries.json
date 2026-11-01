@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T15:04:13.938930+00:00",
+  "updated_at": "2026-11-01T20:28:33.209952+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -36,9 +36,9 @@
       {
         "name": "Mitchell Robinson",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Rest",
-        "returnDate": "2026-11-01"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Devin Carter",
@@ -103,18 +103,18 @@
     ],
     "CHI": [
       {
-        "name": "Dailyn Swain",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-02"
-      },
-      {
         "name": "Nic Claxton",
         "pos": "Center",
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-11-04"
+      },
+      {
+        "name": "Dailyn Swain",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-11-02"
       }
     ],
     "CLE": [
@@ -259,10 +259,17 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Calf",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-09"
       }
     ],
     "IND": [
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-02"
+      },
       {
         "name": "Ivica Zubac",
         "pos": "Center",
@@ -283,13 +290,6 @@
         "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-01"
-      },
-      {
-        "name": "T.J. McConnell",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-02"
       },
       {
         "name": "Johnny Furphy",
@@ -322,17 +322,17 @@
         "returnDate": "2026-11-08"
       },
       {
-        "name": "Max Strus",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-08"
-      },
-      {
         "name": "Brandon Ingram",
         "pos": "Forward",
         "st": "Out",
         "detail": "Achilles",
+        "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Max Strus",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Foot",
         "returnDate": "2026-11-08"
       },
       {
@@ -352,17 +352,17 @@
     ],
     "LAL": [
       {
-        "name": "Ziaire Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-11-01"
-      },
-      {
         "name": "Adou Thiero",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
+        "returnDate": "2026-11-09"
+      },
+      {
+        "name": "Ziaire Williams",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Foot",
         "returnDate": "2026-11-01"
       }
     ],
@@ -418,9 +418,9 @@
       {
         "name": "Jordan Poole",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-04"
       },
       {
         "name": "Dejounte Murray",
