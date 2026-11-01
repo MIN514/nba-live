@@ -1,8 +1,22 @@
 {
-  "updated_at": "2026-10-31T23:21:58.022505+00:00",
+  "updated_at": "2026-11-01T05:56:55.651766+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
+      {
+        "name": "Jock Landale",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Hip",
+        "returnDate": "2026-11-02"
+      },
+      {
+        "name": "Jalen Johnson",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
+      },
       {
         "name": "Mouhamed Gueye",
         "pos": "Forward",
@@ -105,16 +119,9 @@
     ],
     "CLE": [
       {
-        "name": "Meleek Thomas",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-10-31"
-      },
-      {
         "name": "Jaylon Tyson",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-02"
       }
@@ -234,17 +241,17 @@
     ],
     "HOU": [
       {
-        "name": "Reed Sheppard",
+        "name": "Fred VanVleet",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Back",
+        "st": "Day-To-Day",
+        "detail": "Knee",
         "returnDate": "2026-11-02"
       },
       {
-        "name": "Fred VanVleet",
+        "name": "Reed Sheppard",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Knee",
+        "st": "Day-To-Day",
+        "detail": "Back",
         "returnDate": "2026-11-02"
       },
       {
@@ -361,25 +368,25 @@
     ],
     "MEM": [
       {
+        "name": "Quinten Post",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
+      },
+      {
         "name": "Scotty Pippen Jr.",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Back",
-        "returnDate": "2026-10-31"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Ty Jerome",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Back",
-        "returnDate": "2026-10-31"
-      },
-      {
-        "name": "Quinten Post",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-10-31"
+        "returnDate": "2026-11-02"
       }
     ],
     "MIA": [],
@@ -388,7 +395,7 @@
       {
         "name": "Rudy Gobert",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-02"
       },
@@ -409,9 +416,16 @@
     ],
     "NOP": [
       {
+        "name": "Jordan Poole",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-02"
+      },
+      {
         "name": "Dejounte Murray",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Personal",
         "returnDate": "2026-11-02"
       },
@@ -421,13 +435,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-08"
-      },
-      {
-        "name": "Jordan Poole",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-11-02"
       }
     ],
     "NYK": [
@@ -522,17 +529,17 @@
     ],
     "PHI": [
       {
-        "name": "LeBron James",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Back",
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Foot",
         "returnDate": "2026-11-02"
       },
       {
-        "name": "Joel Embiid",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
+        "name": "LeBron James",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
         "returnDate": "2026-11-02"
       },
       {
