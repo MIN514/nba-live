@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:56:34.298973+00:00",
+  "updated_at": "2026-11-02T18:17:11.310394+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -43,7 +43,7 @@
       {
         "name": "Mitchell Robinson",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-02"
       },
@@ -56,13 +56,6 @@
       }
     ],
     "BKN": [
-      {
-        "name": "Mikel Brown Jr.",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-11-02"
-      },
       {
         "name": "Egor Demin",
         "pos": "Guard",
@@ -114,13 +107,6 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-04"
-      },
-      {
-        "name": "Dailyn Swain",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
         "returnDate": "2026-11-02"
       }
     ],
@@ -167,7 +153,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Sergio de Larrea",
@@ -206,7 +192,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-04"
       },
       {
         "name": "Jalen Duren",
@@ -220,21 +206,21 @@
       {
         "name": "Gui Santos",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-05"
       },
       {
         "name": "Draymond Green",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-02"
       },
       {
         "name": "Stephen Curry",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-02"
       },
@@ -296,7 +282,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-09"
       },
       {
         "name": "Ivica Zubac",
@@ -329,20 +315,6 @@
     ],
     "LAC": [
       {
-        "name": "Derrick Jones Jr.",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-02"
-      },
-      {
-        "name": "Max Strus",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-08"
-      },
-      {
         "name": "Yanic Konan Niederhauser",
         "pos": "Center",
         "st": "Out",
@@ -355,6 +327,20 @@
         "st": "Out",
         "detail": "Achilles",
         "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Max Strus",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Derrick Jones Jr.",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-02"
       },
       {
         "name": "Bradley Beal",
@@ -507,6 +493,13 @@
     ],
     "ORL": [
       {
+        "name": "Anthony Black",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-05"
+      },
+      {
         "name": "Jonathan Isaac",
         "pos": "Forward",
         "st": "Out",
@@ -617,7 +610,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-10"
       },
       {
         "name": "Ben Simmons",
@@ -691,6 +684,13 @@
     ],
     "WAS": [
       {
+        "name": "Alex Sarr",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-04"
+      },
+      {
         "name": "Tristan Vukcevic",
         "pos": "Forward",
         "st": "Out",
@@ -698,18 +698,11 @@
         "returnDate": "2026-11-09"
       },
       {
-        "name": "Alex Sarr",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-02"
-      },
-      {
         "name": "Anthony Gill",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Back",
-        "returnDate": "2026-11-02"
+        "returnDate": "2026-11-04"
       },
       {
         "name": "Justin Champagnie",
