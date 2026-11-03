@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:53:28.044131+00:00",
+  "updated_at": "2026-11-03T19:28:54.618761+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -229,7 +229,7 @@
       {
         "name": "Clint Capela",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-04"
       },
@@ -479,7 +479,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-04"
       }
     ],
     "ORL": [
@@ -610,7 +610,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Calf",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-09"
       },
       {
         "name": "Jayden Quaintance",
