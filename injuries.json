@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:03:56.317470+00:00",
+  "updated_at": "2026-11-04T19:43:03.645317+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -34,17 +34,17 @@
     ],
     "BOS": [
       {
+        "name": "Jayson Tatum",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-06"
+      },
+      {
         "name": "Payton Pritchard",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Shoulder",
-        "returnDate": "2026-11-04"
-      },
-      {
-        "name": "Jayson Tatum",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Rest",
         "returnDate": "2026-11-04"
       },
       {
@@ -73,11 +73,11 @@
     ],
     "CHA": [
       {
-        "name": "Kon Knueppel",
-        "pos": "Guard",
+        "name": "Grant Williams",
+        "pos": "Forward",
         "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-11-09"
       },
       {
         "name": "Coby White",
@@ -85,13 +85,6 @@
         "st": "Day-To-Day",
         "detail": "Calf",
         "returnDate": "2026-11-04"
-      },
-      {
-        "name": "Grant Williams",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-09"
       }
     ],
     "CHI": [
@@ -128,18 +121,18 @@
     ],
     "DAL": [
       {
-        "name": "Max Christie",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hip",
-        "returnDate": "2026-11-06"
-      },
-      {
         "name": "Santi Aldama",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-04"
+      },
+      {
+        "name": "Max Christie",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hip",
+        "returnDate": "2026-11-06"
       },
       {
         "name": "Tarik Biberovic",
@@ -211,6 +204,13 @@
     ],
     "GSW": [
       {
+        "name": "Kristaps Porzingis",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": "2026-12-01"
+      },
+      {
         "name": "Brandon Williams",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -232,13 +232,6 @@
         "returnDate": "2026-11-05"
       },
       {
-        "name": "Kristaps Porzingis",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Illness",
-        "returnDate": "2026-12-01"
-      },
-      {
         "name": "Moses Moody",
         "pos": "Guard",
         "st": "Out",
@@ -257,9 +250,9 @@
       {
         "name": "Clint Capela",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-11-07"
       },
       {
         "name": "Steven Adams",
@@ -377,13 +370,6 @@
     ],
     "MIA": [
       {
-        "name": "Myron Gardner",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Quadriceps",
-        "returnDate": "2026-11-04"
-      },
-      {
         "name": "Giannis Antetokounmpo",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -391,14 +377,22 @@
         "returnDate": "2026-11-04"
       }
     ],
-    "MIL": [],
+    "MIL": [
+      {
+        "name": "Kam Jones",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-04"
+      }
+    ],
     "MIN": [
       {
         "name": "Terrence Shannon Jr.",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-11-06"
       },
       {
         "name": "Anthony Edwards",
@@ -417,17 +411,17 @@
     ],
     "NOP": [
       {
-        "name": "Jordan Poole",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-11-04"
-      },
-      {
         "name": "Trey Murphy III",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Knee",
+        "returnDate": "2026-11-04"
+      },
+      {
+        "name": "Jordan Poole",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
         "returnDate": "2026-11-04"
       },
       {
@@ -442,9 +436,9 @@
       {
         "name": "Josh Hart",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-04"
+        "returnDate": "2026-11-07"
       }
     ],
     "OKC": [
@@ -492,13 +486,6 @@
       }
     ],
     "ORL": [
-      {
-        "name": "Anthony Black",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-11-05"
-      },
       {
         "name": "Jonathan Isaac",
         "pos": "Forward",
@@ -661,18 +648,18 @@
     ],
     "UTA": [
       {
-        "name": "Jusuf Nurkic",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Mo Bamba",
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-04"
+      },
+      {
+        "name": "Jusuf Nurkic",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-13"
       },
       {
         "name": "Jaren Jackson Jr.",
@@ -690,6 +677,13 @@
       }
     ],
     "WAS": [
+      {
+        "name": "Bilal Coulibaly",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-04"
+      },
       {
         "name": "Anthony Gill",
         "pos": "Forward",
