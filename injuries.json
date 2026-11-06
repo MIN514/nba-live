@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:57:03.086533+00:00",
+  "updated_at": "2026-11-06T12:02:32.321366+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -255,7 +255,7 @@
       {
         "name": "Gui Santos",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-07"
       },
@@ -366,10 +366,10 @@
     ],
     "LAL": [
       {
-        "name": "Adou Thiero",
+        "name": "Sandro Mamukelashvili",
         "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-06"
       }
     ],
@@ -553,17 +553,17 @@
     ],
     "PHX": [
       {
-        "name": "Rasheer Fleming",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Ankle",
+        "name": "Jordan Goodwin",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-07"
       },
       {
-        "name": "Jordan Goodwin",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Calf",
+        "name": "Rasheer Fleming",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-11-07"
       },
       {
@@ -637,6 +637,13 @@
       }
     ],
     "TOR": [
+      {
+        "name": "Scottie Barnes",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-06"
+      },
       {
         "name": "Kawhi Leonard",
         "pos": "Forward",
