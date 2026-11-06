@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:02:32.321366+00:00",
+  "updated_at": "2026-11-06T19:20:28.884921+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -48,18 +48,11 @@
     ],
     "BOS": [
       {
-        "name": "Payton Pritchard",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Eye",
-        "returnDate": "2026-11-06"
-      },
-      {
         "name": "Devin Carter",
         "pos": "Guard",
         "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-08"
+        "returnDate": "2026-11-06"
       }
     ],
     "BKN": [
@@ -96,16 +89,16 @@
       {
         "name": "Dennis Schroder",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Thigh",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-09"
       },
       {
         "name": "Moussa Diabate",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Quadriceps",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-09"
       },
       {
         "name": "Kon Knueppel",
@@ -176,6 +169,13 @@
       }
     ],
     "DAL": [
+      {
+        "name": "Kyrie Irving",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-06"
+      },
       {
         "name": "Sergio de Larrea",
         "pos": "Forward",
@@ -394,18 +394,18 @@
       {
         "name": "Kam Jones",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-11-08"
+        "returnDate": "2026-11-06"
       }
     ],
     "MIN": [
       {
         "name": "Terrence Shannon Jr.",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-08"
       },
       {
         "name": "Anthony Edwards",
@@ -429,13 +429,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-09"
-      },
-      {
-        "name": "Trey Murphy III",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-06"
       }
     ],
     "NYK": [
@@ -638,10 +631,31 @@
     ],
     "TOR": [
       {
+        "name": "Jakob Poeltl",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
+        "returnDate": "2026-11-06"
+      },
+      {
+        "name": "Immanuel Quickley",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-06"
+      },
+      {
         "name": "Scottie Barnes",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Groin",
+        "returnDate": "2026-11-06"
+      },
+      {
+        "name": "Kyle Anderson",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-06"
       },
       {
@@ -665,7 +679,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-20"
       },
       {
         "name": "Jaren Jackson Jr.",
@@ -679,7 +693,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-08"
+        "returnDate": "2026-11-06"
       }
     ],
     "WAS": [
