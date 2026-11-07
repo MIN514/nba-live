@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:13:13.751751+00:00",
+  "updated_at": "2026-11-07T23:38:22.106528+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -25,13 +25,6 @@
         "returnDate": "2026-11-09"
       },
       {
-        "name": "Jalen Johnson",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Ankle",
-        "returnDate": "2026-11-07"
-      },
-      {
         "name": "Mouhamed Gueye",
         "pos": "Forward",
         "st": "Out",
@@ -48,13 +41,6 @@
     ],
     "BOS": [],
     "BKN": [
-      {
-        "name": "Noah Clowney",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-07"
-      },
       {
         "name": "Day'Ron Sharpe",
         "pos": "Center",
@@ -109,10 +95,17 @@
     ],
     "CHI": [
       {
-        "name": "Zach Collins",
+        "name": "Tobe Awaka",
         "pos": "Forward",
         "st": "Day-To-Day",
-        "detail": "Illness",
+        "detail": "Knee",
+        "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Jalen Smith",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Finger",
         "returnDate": "2026-11-08"
       },
       {
@@ -123,11 +116,11 @@
         "returnDate": "2026-11-08"
       },
       {
-        "name": "Jalen Smith",
+        "name": "Zach Collins",
         "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Hand",
-        "returnDate": "2026-11-08"
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": "2026-11-11"
       }
     ],
     "CLE": [
@@ -178,13 +171,6 @@
     ],
     "DEN": [
       {
-        "name": "DeMar DeRozan",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-07"
-      },
-      {
         "name": "Julian Strawther",
         "pos": "Guard",
         "st": "Out",
@@ -198,6 +184,20 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Hip",
+        "returnDate": "2026-11-09"
+      },
+      {
+        "name": "Isaac Jones",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Not Injury Related",
+        "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Elijah Harkless",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Not Injury Related",
         "returnDate": "2026-11-08"
       },
       {
@@ -270,18 +270,11 @@
     ],
     "IND": [
       {
-        "name": "T.J. McConnell",
+        "name": "Tyrese Haliburton",
         "pos": "Guard",
         "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-07"
-      },
-      {
-        "name": "Kelly Oubre Jr.",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-07"
+        "returnDate": "2026-11-13"
       },
       {
         "name": "Johnny Furphy",
@@ -296,13 +289,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2027-01-02"
-      },
-      {
-        "name": "Tyrese Haliburton",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-13"
       }
     ],
     "LAC": [
@@ -335,7 +321,15 @@
         "returnDate": "2027-03-02"
       }
     ],
-    "LAL": [],
+    "LAL": [
+      {
+        "name": "Luka Doncic",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-11-08"
+      }
+    ],
     "MEM": [
       {
         "name": "Richie Saunders",
@@ -367,13 +361,6 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Fracture",
-        "returnDate": "2026-11-08"
-      },
-      {
-        "name": "Terrence Shannon Jr.",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hip",
         "returnDate": "2026-11-08"
       },
       {
@@ -492,11 +479,18 @@
     ],
     "PHI": [
       {
-        "name": "Adem Bona",
+        "name": "Joel Embiid",
         "pos": "Center",
         "st": "Day-To-Day",
-        "detail": "Back",
+        "detail": "Foot",
         "returnDate": "2026-11-08"
+      },
+      {
+        "name": "Adem Bona",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-10"
       },
       {
         "name": "Dominick Barlow",
@@ -537,6 +531,13 @@
       }
     ],
     "POR": [
+      {
+        "name": "Robert Williams III",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Rest",
+        "returnDate": "2026-11-10"
+      },
       {
         "name": "Vit Krejci",
         "pos": "Guard",
@@ -636,6 +637,13 @@
       }
     ],
     "UTA": [
+      {
+        "name": "Lauri Markkanen",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
+        "returnDate": "2026-11-08"
+      },
       {
         "name": "Jusuf Nurkic",
         "pos": "Center",
