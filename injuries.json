@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T00:05:48.417185+00:00",
+  "updated_at": "2026-11-07T05:53:14.071041+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -80,6 +80,13 @@
     ],
     "CHA": [
       {
+        "name": "Brandon Miller",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-09"
+      },
+      {
         "name": "Dennis Schroder",
         "pos": "Guard",
         "st": "Out",
@@ -133,17 +140,24 @@
     ],
     "CLE": [
       {
-        "name": "Jaylon Tyson",
+        "name": "Sam Merrill",
         "pos": "Guard",
         "st": "Out",
-        "detail": "Ankle",
+        "detail": "Elbow",
         "returnDate": "2026-11-07"
       },
       {
         "name": "Jarrett Allen",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
+        "returnDate": "2026-11-07"
+      },
+      {
+        "name": "Jaylon Tyson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
         "returnDate": "2026-11-07"
       }
     ],
@@ -177,13 +191,6 @@
         "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-07"
-      },
-      {
-        "name": "Spencer Jones",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-11"
       },
       {
         "name": "Julian Strawther",
@@ -365,6 +372,13 @@
     ],
     "MIN": [
       {
+        "name": "Joan Beringer",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Fracture",
+        "returnDate": "2026-11-08"
+      },
+      {
         "name": "Terrence Shannon Jr.",
         "pos": "Guard",
         "st": "Out",
@@ -510,17 +524,17 @@
     ],
     "PHX": [
       {
-        "name": "Jordan Goodwin",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-07"
-      },
-      {
         "name": "Rasheer Fleming",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Ankle",
+        "returnDate": "2026-11-07"
+      },
+      {
+        "name": "Jordan Goodwin",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-07"
       },
       {
@@ -558,9 +572,9 @@
       {
         "name": "De'Andre Hunter",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-06"
+        "returnDate": "2026-11-08"
       },
       {
         "name": "Maxime Raynaud",
