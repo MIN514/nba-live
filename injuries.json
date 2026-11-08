@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:55:38.863192+00:00",
+  "updated_at": "2026-11-08T15:08:35.058859+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -635,7 +635,7 @@
       {
         "name": "Deandre Ayton",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Leg",
         "returnDate": "2026-11-09"
       },
