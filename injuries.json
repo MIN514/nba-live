@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:17:28.058137+00:00",
+  "updated_at": "2026-11-09T18:43:42.459193+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -42,18 +42,18 @@
     "BOS": [],
     "BKN": [
       {
+        "name": "Mikel Brown Jr.",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Rest",
+        "returnDate": "2026-11-11"
+      },
+      {
         "name": "Grant Nelson",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-10"
-      },
-      {
-        "name": "Mikel Brown Jr.",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Rest",
-        "returnDate": "2026-11-11"
       },
       {
         "name": "Egor Demin",
@@ -64,6 +64,13 @@
       }
     ],
     "CHA": [
+      {
+        "name": "Moussa Diabate",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Quadriceps",
+        "returnDate": "2026-11-09"
+      },
       {
         "name": "Grant Williams",
         "pos": "Forward",
@@ -77,13 +84,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-12-12"
-      },
-      {
-        "name": "Moussa Diabate",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Quadriceps",
-        "returnDate": "2026-11-09"
       },
       {
         "name": "Dennis Schroder",
@@ -104,14 +104,14 @@
       {
         "name": "Norman Powell",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Shoulder",
         "returnDate": "2026-11-11"
       },
       {
         "name": "Zach Collins",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
         "returnDate": "2026-11-11"
       }
@@ -268,6 +268,13 @@
     ],
     "HOU": [
       {
+        "name": "Oscar Tshiebwe",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Illness",
+        "returnDate": "2026-11-11"
+      },
+      {
         "name": "Clint Capela",
         "pos": "Center",
         "st": "Out",
@@ -314,17 +321,17 @@
     ],
     "LAC": [
       {
+        "name": "Isaiah Jackson",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-10"
+      },
+      {
         "name": "Brandon Ingram",
         "pos": "Forward",
         "st": "Out",
         "detail": "Achilles",
-        "returnDate": "2026-11-10"
-      },
-      {
-        "name": "Isaiah Jackson",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Groin",
         "returnDate": "2026-11-10"
       },
       {
@@ -353,15 +360,15 @@
       {
         "name": "Quentin Grimes",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Finger",
-        "returnDate": "2026-11-09"
+        "returnDate": "2026-11-11"
       },
       {
-        "name": "Luka Doncic",
+        "name": "Austin Reaves",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Back",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-09"
       }
     ],
@@ -393,7 +400,7 @@
       {
         "name": "Gary Trent Jr.",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
         "returnDate": "2026-11-10"
       }
@@ -420,7 +427,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-09"
+        "returnDate": "2026-11-16"
       }
     ],
     "NYK": [
@@ -517,7 +524,7 @@
       {
         "name": "Adem Bona",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-10"
       },
@@ -586,7 +593,7 @@
       {
         "name": "Domantas Sabonis",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-10"
       },
@@ -630,6 +637,13 @@
     ],
     "TOR": [
       {
+        "name": "Collin Murray-Boyles",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-09"
+      },
+      {
         "name": "Nate Bittle",
         "pos": "Center",
         "st": "Out",
@@ -660,17 +674,17 @@
     ],
     "UTA": [
       {
+        "name": "Lauri Markkanen",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
+        "returnDate": "2026-11-10"
+      },
+      {
         "name": "Keyonte George",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-11-10"
-      },
-      {
-        "name": "Lauri Markkanen",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Wrist",
         "returnDate": "2026-11-10"
       },
       {
