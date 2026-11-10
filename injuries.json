@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:34:47.540005+00:00",
+  "updated_at": "2026-11-10T21:47:27.577831+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -184,23 +184,23 @@
       {
         "name": "Gary Payton II",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-11"
-      },
-      {
-        "name": "Brandon Williams",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-11"
+        "returnDate": "2026-11-13"
       },
       {
         "name": "Will Richard",
         "pos": "Guard",
         "st": "Out",
         "detail": "Thumb",
-        "returnDate": "2026-11-16"
+        "returnDate": "2026-11-11"
+      },
+      {
+        "name": "Brandon Williams",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-22"
       },
       {
         "name": "Kristaps Porzingis",
@@ -225,13 +225,6 @@
       }
     ],
     "HOU": [
-      {
-        "name": "Oscar Tshiebwe",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-11"
-      },
       {
         "name": "Clint Capela",
         "pos": "Center",
@@ -364,6 +357,13 @@
     ],
     "MIL": [
       {
+        "name": "Kel'el Ware",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-10"
+      },
+      {
         "name": "Tyler Herro",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -391,22 +391,15 @@
       {
         "name": "Trendon Watford",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-11"
+        "returnDate": "2026-11-13"
       },
       {
         "name": "Trey Murphy III",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Knee",
-        "returnDate": "2026-11-11"
-      },
-      {
-        "name": "Zion Williamson",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Rest",
         "returnDate": "2026-11-11"
       },
       {
@@ -422,7 +415,7 @@
         "name": "Josh Hart",
         "pos": "Guard",
         "st": "Day-To-Day",
-        "detail": "Ankle",
+        "detail": "Illness",
         "returnDate": "2026-11-10"
       }
     ],
@@ -465,6 +458,13 @@
     ],
     "ORL": [
       {
+        "name": "Tristan da Silva",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Calf",
+        "returnDate": "2026-11-10"
+      },
+      {
         "name": "Jalen Suggs",
         "pos": "Guard",
         "st": "Out",
@@ -476,7 +476,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-11"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Paolo Banchero",
@@ -525,13 +525,6 @@
     ],
     "PHX": [
       {
-        "name": "Jordan Goodwin",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Calf",
-        "returnDate": "2026-11-10"
-      },
-      {
         "name": "Mark Williams",
         "pos": "Center",
         "st": "Out",
@@ -571,20 +564,6 @@
         "returnDate": "2026-11-15"
       },
       {
-        "name": "Keegan Murray",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-11-10"
-      },
-      {
-        "name": "Domantas Sabonis",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-10"
-      },
-      {
         "name": "Ben Simmons",
         "pos": "Guard",
         "st": "Out",
@@ -617,6 +596,13 @@
     ],
     "TOR": [
       {
+        "name": "Kawhi Leonard",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Immanuel Quickley",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -643,29 +629,22 @@
         "st": "Out",
         "detail": "Foot",
         "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Kawhi Leonard",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-23"
       }
     ],
     "UTA": [
+      {
+        "name": "Lauri Markkanen",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Wrist",
+        "returnDate": "2026-11-11"
+      },
       {
         "name": "Keyonte George",
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-11"
-      },
-      {
-        "name": "Lauri Markkanen",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-11-10"
       },
       {
         "name": "Jusuf Nurkic",
