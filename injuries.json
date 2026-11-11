@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:07:23.412187+00:00",
+  "updated_at": "2026-11-11T16:07:31.425960+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -173,6 +173,13 @@
     ],
     "DET": [
       {
+        "name": "Ugonna Onyenso",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Foot",
+        "returnDate": "2026-11-13"
+      },
+      {
         "name": "Isaiah Joe",
         "pos": "Guard",
         "st": "Out",
@@ -281,7 +288,7 @@
       {
         "name": "Cam Christie",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-13"
       },
@@ -358,7 +365,7 @@
       {
         "name": "Tyler Herro",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-11"
       }
@@ -452,7 +459,7 @@
       {
         "name": "Tristan da Silva",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Calf",
         "returnDate": "2026-11-11"
       },
@@ -549,6 +556,13 @@
     ],
     "SAC": [
       {
+        "name": "Precious Achiuwa",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Lower Leg",
+        "returnDate": "2026-11-13"
+      },
+      {
         "name": "Maxime Raynaud",
         "pos": "Center",
         "st": "Out",
@@ -632,17 +646,17 @@
     ],
     "UTA": [
       {
-        "name": "Lauri Markkanen",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Wrist",
+        "name": "Keyonte George",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-11-11"
       },
       {
-        "name": "Keyonte George",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
+        "name": "Lauri Markkanen",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Wrist",
         "returnDate": "2026-11-11"
       },
       {
