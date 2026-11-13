@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:08:34.043593+00:00",
+  "updated_at": "2026-11-13T19:37:12.555482+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -391,13 +391,6 @@
         "returnDate": "2026-11-13"
       },
       {
-        "name": "Giannis Antetokounmpo",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Pelle Larsson",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -426,15 +419,15 @@
       {
         "name": "Bryce McGowens",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Elbow",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
       },
       {
-        "name": "Trendon Watford",
-        "pos": "Forward",
+        "name": "Yves Missi",
+        "pos": "Center",
         "st": "Out",
-        "detail": "Ankle",
+        "detail": "Knee",
         "returnDate": "2026-11-14"
       },
       {
@@ -445,18 +438,25 @@
         "returnDate": "2026-11-13"
       },
       {
-        "name": "Yves Missi",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
+        "name": "Dejounte Murray",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-11-13"
       },
       {
         "name": "Trey Murphy III",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
+      },
+      {
+        "name": "Trendon Watford",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-14"
       }
     ],
     "NYK": [],
@@ -506,17 +506,17 @@
     ],
     "ORL": [
       {
-        "name": "Tristan da Silva",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Jamal Cain",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Shoulder",
+        "returnDate": "2026-11-13"
+      },
+      {
+        "name": "Tristan da Silva",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-13"
       },
       {
@@ -586,6 +586,13 @@
       }
     ],
     "PHX": [
+      {
+        "name": "Drew Timme",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Hand",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Mark Williams",
         "pos": "Center",
@@ -678,6 +685,13 @@
       }
     ],
     "TOR": [
+      {
+        "name": "Kevin McCullar Jr.",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-14"
+      },
       {
         "name": "Trayce Jackson-Davis",
         "pos": "Forward",
