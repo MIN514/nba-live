@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:03:29.313523+00:00",
+  "updated_at": "2026-11-13T12:08:34.043593+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -68,7 +68,7 @@
       {
         "name": "Brandon Miller",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Groin",
         "returnDate": "2026-11-15"
       },
@@ -301,13 +301,6 @@
         "returnDate": "2026-11-19"
       },
       {
-        "name": "Cam Christie",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Yanic Konan Niederhauser",
         "pos": "Center",
         "st": "Out",
@@ -469,6 +462,13 @@
     "NYK": [],
     "OKC": [
       {
+        "name": "Thomas Sorber",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-20"
+      },
+      {
         "name": "Ajay Mitchell",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -481,13 +481,6 @@
         "st": "Out",
         "detail": "Back",
         "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Thomas Sorber",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-13"
       },
       {
         "name": "Cason Wallace",
@@ -566,7 +559,7 @@
       {
         "name": "LeBron James",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-15"
       },
@@ -605,9 +598,9 @@
       {
         "name": "Chris Youngblood",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Vit Krejci",
@@ -688,7 +681,7 @@
       {
         "name": "Trayce Jackson-Davis",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
         "returnDate": "2026-11-15"
       },
@@ -745,6 +738,13 @@
       }
     ],
     "WAS": [
+      {
+        "name": "Bub Carrington",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Chest",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Tristan Vukcevic",
         "pos": "Forward",
