@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:37:12.555482+00:00",
+  "updated_at": "2026-11-14T00:52:12.610606+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -25,13 +25,6 @@
         "returnDate": "2026-11-20"
       },
       {
-        "name": "Kingston Flemings",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Henri Veesaar",
         "pos": "Center",
         "st": "Out",
@@ -50,17 +43,17 @@
     ],
     "BKN": [
       {
-        "name": "Nolan Traore",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-14"
-      },
-      {
         "name": "Mikel Brown Jr.",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Illness",
+        "returnDate": "2026-11-14"
+      },
+      {
+        "name": "Nolan Traore",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-14"
       }
     ],
@@ -89,25 +82,18 @@
     ],
     "CHI": [
       {
-        "name": "Tobe Awaka",
-        "pos": "Forward",
+        "name": "Dailyn Swain",
+        "pos": "Guard",
         "st": "Out",
         "detail": "Back",
         "returnDate": "2026-11-14"
       },
       {
-        "name": "Dailyn Swain",
-        "pos": "Guard",
-        "st": "Day-To-Day",
+        "name": "Tobe Awaka",
+        "pos": "Forward",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Norman Powell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Shoulder",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
       },
       {
         "name": "Caleb Wilson",
@@ -131,9 +117,30 @@
         "st": "Out",
         "detail": "Elbow",
         "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Nae'Qwan Tomlin",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-16"
       }
     ],
     "DAL": [
+      {
+        "name": "Max Christie",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-14"
+      },
+      {
+        "name": "Morez Johnson Jr.",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Lower Leg",
+        "returnDate": "2026-11-14"
+      },
       {
         "name": "Dereck Lively II",
         "pos": "Center",
@@ -171,7 +178,7 @@
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Foot",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
       },
       {
         "name": "Isaiah Joe",
@@ -257,20 +264,6 @@
     ],
     "IND": [
       {
-        "name": "T.J. McConnell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Aaron Nesmith",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Tyrese Haliburton",
         "pos": "Guard",
         "st": "Out",
@@ -331,13 +324,6 @@
         "returnDate": "2026-11-15"
       },
       {
-        "name": "Collin Sexton",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Head",
-        "returnDate": "2026-11-15"
-      },
-      {
         "name": "Austin Reaves",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -349,6 +335,13 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Ankle",
+        "returnDate": "2026-11-15"
+      },
+      {
+        "name": "Collin Sexton",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Head",
         "returnDate": "2026-11-15"
       }
     ],
@@ -386,16 +379,16 @@
       {
         "name": "Klay Thompson",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
       },
       {
         "name": "Pelle Larsson",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-14"
       }
     ],
     "MIL": [],
@@ -417,6 +410,13 @@
     ],
     "NOP": [
       {
+        "name": "Dejounte Murray",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-20"
+      },
+      {
         "name": "Bryce McGowens",
         "pos": "Guard",
         "st": "Out",
@@ -429,20 +429,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Bennedict Mathurin",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Thumb",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Dejounte Murray",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-13"
       },
       {
         "name": "Trey Murphy III",
@@ -505,27 +491,6 @@
       }
     ],
     "ORL": [
-      {
-        "name": "Jamal Cain",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Shoulder",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Tristan da Silva",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "Jalen Suggs",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-13"
-      },
       {
         "name": "Jonathan Isaac",
         "pos": "Forward",
@@ -635,9 +600,9 @@
       {
         "name": "Precious Achiuwa",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-13"
+        "returnDate": "2026-11-15"
       },
       {
         "name": "Maxime Raynaud",
