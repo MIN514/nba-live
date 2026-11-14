@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-14T17:57:44.274600+00:00",
+  "updated_at": "2026-11-14T23:53:01.810156+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
       {
         "name": "Kingston Flemings",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-15"
+        "returnDate": "2026-11-18"
       },
       {
         "name": "Mouhamed Gueye",
@@ -39,28 +39,13 @@
         "returnDate": "2027-07-01"
       }
     ],
-    "BOS": [
-      {
-        "name": "Paul George",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-15"
-      }
-    ],
+    "BOS": [],
     "BKN": [
       {
-        "name": "Mikel Brown Jr.",
-        "pos": "Guard",
+        "name": "Michael Porter Jr.",
+        "pos": "Forward",
         "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Nolan Traore",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Calf",
+        "detail": "Personal",
         "returnDate": "2026-11-14"
       }
     ],
@@ -89,25 +74,25 @@
     ],
     "CHI": [
       {
-        "name": "Dailyn Swain",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-14"
+        "name": "Jalen Smith",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Finger",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Nic Claxton",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Tobe Awaka",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Jalen Smith",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Hand",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Caleb Wilson",
@@ -119,11 +104,39 @@
     ],
     "CLE": [
       {
+        "name": "Peyton Watson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "James Harden",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Calf",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Donovan Mitchell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Jarrett Allen",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-16"
+      },
+      {
         "name": "Evan Mobley",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Toe",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Sam Merrill",
@@ -144,16 +157,9 @@
       {
         "name": "Max Christie",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Morez Johnson Jr.",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Lower Leg",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-15"
       },
       {
         "name": "Dereck Lively II",
@@ -248,18 +254,11 @@
     ],
     "HOU": [
       {
-        "name": "Marcus Smart",
-        "pos": "Guard",
-        "st": "Suspension",
-        "detail": "Suspension",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Clint Capela",
         "pos": "Center",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-15"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Steven Adams",
@@ -267,9 +266,30 @@
         "st": "Out",
         "detail": "Calf",
         "returnDate": "2026-11-15"
+      },
+      {
+        "name": "Fred VanVleet",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Marcus Smart",
+        "pos": "Guard",
+        "st": "Suspension",
+        "detail": "Suspension",
+        "returnDate": "2026-11-18"
       }
     ],
     "IND": [
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Aaron Nesmith",
         "pos": "Guard",
@@ -331,10 +351,10 @@
     ],
     "LAL": [
       {
-        "name": "Quentin Grimes",
+        "name": "Collin Sexton",
         "pos": "Guard",
         "st": "Day-To-Day",
-        "detail": "Finger",
+        "detail": "Head",
         "returnDate": "2026-11-15"
       },
       {
@@ -345,17 +365,10 @@
         "returnDate": "2026-11-15"
       },
       {
-        "name": "Luka Doncic",
+        "name": "Quentin Grimes",
         "pos": "Guard",
         "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Collin Sexton",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Head",
+        "detail": "Finger",
         "returnDate": "2026-11-15"
       }
     ],
@@ -363,8 +376,15 @@
       {
         "name": "Quinten Post",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Concussion",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Jerami Grant",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Head",
         "returnDate": "2026-11-14"
       },
       {
@@ -373,6 +393,13 @@
         "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-14"
+      },
+      {
+        "name": "Ty Jerome",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hip",
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Scotty Pippen Jr.",
@@ -393,19 +420,20 @@
       {
         "name": "Pelle Larsson",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Klay Thompson",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       }
     ],
-    "MIL": [],
+    "MIL": [
+      {
+        "name": "Ousmane Dieng",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Finger",
+        "returnDate": "2026-11-18"
+      }
+    ],
     "MIN": [
       {
         "name": "Anthony Edwards",
@@ -424,25 +452,25 @@
     ],
     "NOP": [
       {
-        "name": "Bryce McGowens",
+        "name": "Bennedict Mathurin",
         "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Elbow",
-        "returnDate": "2026-11-14"
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-16"
       },
       {
-        "name": "Dejounte Murray",
-        "pos": "Guard",
+        "name": "Trendon Watford",
+        "pos": "Forward",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-20"
+        "returnDate": "2026-11-16"
       },
       {
-        "name": "Yves Missi",
-        "pos": "Center",
+        "name": "Bryce McGowens",
+        "pos": "Guard",
         "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-14"
+        "detail": "Elbow",
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Trey Murphy III",
@@ -452,11 +480,11 @@
         "returnDate": "2026-11-16"
       },
       {
-        "name": "Trendon Watford",
-        "pos": "Forward",
+        "name": "Dejounte Murray",
+        "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-20"
       }
     ],
     "NYK": [],
@@ -536,11 +564,11 @@
     ],
     "PHI": [
       {
-        "name": "LeBron James",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-15"
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Dominick Barlow",
@@ -612,6 +640,13 @@
     ],
     "SAC": [
       {
+        "name": "Keegan Murray",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "Precious Achiuwa",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -651,6 +686,13 @@
     ],
     "TOR": [
       {
+        "name": "Nate Bittle",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Scottie Barnes",
         "pos": "Forward",
         "st": "Out",
@@ -665,25 +707,11 @@
         "returnDate": "2026-11-14"
       },
       {
-        "name": "Trayce Jackson-Davis",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-15"
-      },
-      {
         "name": "Kawhi Leonard",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-23"
-      },
-      {
-        "name": "Nate Bittle",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-15"
       }
     ],
     "UTA": [
@@ -724,6 +752,20 @@
       }
     ],
     "WAS": [
+      {
+        "name": "Alex Sarr",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-15"
+      },
+      {
+        "name": "Tre Johnson",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Bub Carrington",
         "pos": "Guard",
