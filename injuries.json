@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T11:25:34.799971+00:00",
+  "updated_at": "2026-11-14T17:57:44.274600+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -89,24 +89,24 @@
     ],
     "CHI": [
       {
-        "name": "Jalen Smith",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Hand",
-        "returnDate": "2026-11-14"
-      },
-      {
         "name": "Dailyn Swain",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Back",
         "returnDate": "2026-11-14"
       },
       {
         "name": "Tobe Awaka",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Back",
+        "returnDate": "2026-11-14"
+      },
+      {
+        "name": "Jalen Smith",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Hand",
         "returnDate": "2026-11-14"
       },
       {
@@ -121,7 +121,7 @@
       {
         "name": "Evan Mobley",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Toe",
         "returnDate": "2026-11-14"
       },
@@ -363,14 +363,14 @@
       {
         "name": "Quinten Post",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Concussion",
         "returnDate": "2026-11-14"
       },
       {
         "name": "Zach Edey",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-14"
       },
@@ -391,17 +391,17 @@
     ],
     "MIA": [
       {
-        "name": "Klay Thompson",
+        "name": "Pelle Larsson",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-14"
       },
       {
-        "name": "Pelle Larsson",
+        "name": "Klay Thompson",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Illness",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-11-14"
       }
     ],
@@ -424,18 +424,18 @@
     ],
     "NOP": [
       {
+        "name": "Bryce McGowens",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Elbow",
+        "returnDate": "2026-11-14"
+      },
+      {
         "name": "Dejounte Murray",
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-20"
-      },
-      {
-        "name": "Bryce McGowens",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Elbow",
-        "returnDate": "2026-11-14"
       },
       {
         "name": "Yves Missi",
@@ -449,7 +449,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Trendon Watford",
@@ -464,7 +464,7 @@
       {
         "name": "Ajay Mitchell",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-15"
       },
@@ -506,6 +506,13 @@
     ],
     "ORL": [
       {
+        "name": "Noah Penda",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-22"
+      },
+      {
         "name": "Jonathan Isaac",
         "pos": "Forward",
         "st": "Out",
@@ -518,13 +525,6 @@
         "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-22"
-      },
-      {
-        "name": "Noah Penda",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-18"
       },
       {
         "name": "Izaiyah Nelson",
@@ -584,7 +584,7 @@
       {
         "name": "Chris Youngblood",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Foot",
         "returnDate": "2026-11-16"
       },
@@ -614,7 +614,7 @@
       {
         "name": "Precious Achiuwa",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-15"
       },
@@ -651,6 +651,13 @@
     ],
     "TOR": [
       {
+        "name": "Scottie Barnes",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Groin",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "Kevin McCullar Jr.",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -662,13 +669,6 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Illness",
-        "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Scottie Barnes",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Groin",
         "returnDate": "2026-11-15"
       },
       {
