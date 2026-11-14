@@ -1,8 +1,15 @@
 {
-  "updated_at": "2026-11-14T00:52:12.610606+00:00",
+  "updated_at": "2026-11-14T11:25:34.799971+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
+      {
+        "name": "Kingston Flemings",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Mouhamed Gueye",
         "pos": "Forward",
@@ -81,6 +88,13 @@
       }
     ],
     "CHI": [
+      {
+        "name": "Jalen Smith",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Hand",
+        "returnDate": "2026-11-14"
+      },
       {
         "name": "Dailyn Swain",
         "pos": "Guard",
@@ -197,13 +211,6 @@
     ],
     "GSW": [
       {
-        "name": "Charles Bassey",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Toe",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Stephen Curry",
         "pos": "Guard",
         "st": "Out",
@@ -263,6 +270,13 @@
       }
     ],
     "IND": [
+      {
+        "name": "Aaron Nesmith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hand",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Tyrese Haliburton",
         "pos": "Guard",
@@ -448,18 +462,18 @@
     "NYK": [],
     "OKC": [
       {
+        "name": "Ajay Mitchell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "Thomas Sorber",
         "pos": "Center",
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-20"
-      },
-      {
-        "name": "Ajay Mitchell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-13"
       },
       {
         "name": "Jaylin Williams",
@@ -621,20 +635,6 @@
     ],
     "SAS": [
       {
-        "name": "Devin Vassell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Groin",
-        "returnDate": "2026-11-13"
-      },
-      {
-        "name": "De'Aaron Fox",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hip",
-        "returnDate": "2026-11-13"
-      },
-      {
         "name": "Tobias Harris",
         "pos": "Forward",
         "st": "Out",
@@ -687,6 +687,13 @@
       }
     ],
     "UTA": [
+      {
+        "name": "Jaxson Hayes",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-15"
+      },
       {
         "name": "Trey Alexander",
         "pos": "Guard",
