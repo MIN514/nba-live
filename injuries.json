@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T23:53:01.810156+00:00",
+  "updated_at": "2026-11-15T06:21:44.488171+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -44,19 +44,12 @@
       {
         "name": "Michael Porter Jr.",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Personal",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       }
     ],
     "CHA": [
-      {
-        "name": "Brandon Miller",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Groin",
-        "returnDate": "2026-11-15"
-      },
       {
         "name": "Kon Knueppel",
         "pos": "Guard",
@@ -155,6 +148,13 @@
     ],
     "DAL": [
       {
+        "name": "Daniel Gafford",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Face",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "Max Christie",
         "pos": "Guard",
         "st": "Out",
@@ -193,6 +193,13 @@
       }
     ],
     "DET": [
+      {
+        "name": "Duncan Robinson",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Thigh",
+        "returnDate": "2026-11-14"
+      },
       {
         "name": "Ugonna Onyenso",
         "pos": "Center",
@@ -284,6 +291,13 @@
     ],
     "IND": [
       {
+        "name": "Andrew Nembhard",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hip",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "T.J. McConnell",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -351,6 +365,13 @@
     ],
     "LAL": [
       {
+        "name": "Adou Thiero",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-15"
+      },
+      {
         "name": "Collin Sexton",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -360,39 +381,39 @@
       {
         "name": "Austin Reaves",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Quentin Grimes",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Finger",
-        "returnDate": "2026-11-15"
+        "returnDate": "2026-11-17"
       }
     ],
     "MEM": [
+      {
+        "name": "GG Jackson",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Zach Edey",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "Jerami Grant",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Head",
+        "returnDate": "2026-11-16"
+      },
       {
         "name": "Quinten Post",
         "pos": "Center",
         "st": "Out",
         "detail": "Concussion",
         "returnDate": "2026-11-16"
-      },
-      {
-        "name": "Jerami Grant",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Head",
-        "returnDate": "2026-11-14"
-      },
-      {
-        "name": "Zach Edey",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-14"
       },
       {
         "name": "Ty Jerome",
@@ -435,6 +456,13 @@
       }
     ],
     "MIN": [
+      {
+        "name": "Jaylen Clark",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-16"
+      },
       {
         "name": "Anthony Edwards",
         "pos": "Guard",
@@ -490,6 +518,13 @@
     "NYK": [],
     "OKC": [
       {
+        "name": "Jaylin Williams",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-18"
+      },
+      {
         "name": "Ajay Mitchell",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -502,13 +537,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-11-20"
-      },
-      {
-        "name": "Jaylin Williams",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Back",
-        "returnDate": "2026-11-15"
       },
       {
         "name": "Cason Wallace",
@@ -640,6 +668,13 @@
     ],
     "SAC": [
       {
+        "name": "Maxime Raynaud",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-18"
+      },
+      {
         "name": "Keegan Murray",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -651,13 +686,6 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-11-15"
-      },
-      {
-        "name": "Maxime Raynaud",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
         "returnDate": "2026-11-15"
       },
       {
@@ -718,9 +746,9 @@
       {
         "name": "Jaxson Hayes",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-15"
+        "returnDate": "2026-11-17"
       },
       {
         "name": "Trey Alexander",
