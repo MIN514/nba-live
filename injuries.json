@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T06:21:44.488171+00:00",
+  "updated_at": "2026-11-15T15:38:33.243830+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -99,22 +99,29 @@
       {
         "name": "Peyton Watson",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Hamstring",
         "returnDate": "2026-11-16"
       },
       {
-        "name": "James Harden",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Calf",
+        "name": "Evan Mobley",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Toe",
         "returnDate": "2026-11-16"
       },
       {
         "name": "Donovan Mitchell",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
+        "returnDate": "2026-11-16"
+      },
+      {
+        "name": "James Harden",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-16"
       },
       {
@@ -122,13 +129,6 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-16"
-      },
-      {
-        "name": "Evan Mobley",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Toe",
         "returnDate": "2026-11-16"
       },
       {
@@ -150,14 +150,14 @@
       {
         "name": "Daniel Gafford",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Face",
         "returnDate": "2026-11-15"
       },
       {
         "name": "Max Christie",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
         "returnDate": "2026-11-15"
       },
@@ -480,9 +480,16 @@
     ],
     "NOP": [
       {
+        "name": "Bryce McGowens",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Elbow",
+        "returnDate": "2026-11-16"
+      },
+      {
         "name": "Bennedict Mathurin",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Foot",
         "returnDate": "2026-11-16"
       },
@@ -491,13 +498,6 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-16"
-      },
-      {
-        "name": "Bryce McGowens",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Elbow",
         "returnDate": "2026-11-16"
       },
       {
@@ -732,7 +732,7 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Illness",
-        "returnDate": "2026-11-14"
+        "returnDate": "2026-11-16"
       },
       {
         "name": "Kawhi Leonard",
