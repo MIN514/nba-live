@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T02:54:12.925062+00:00",
+  "updated_at": "2026-11-17T13:16:48.903864+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -43,7 +43,7 @@
       {
         "name": "Neemias Queta",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-18"
       }
@@ -70,7 +70,7 @@
         "name": "Jalen Smith",
         "pos": "Forward",
         "st": "Day-To-Day",
-        "detail": "Undisclosed",
+        "detail": "Head",
         "returnDate": "2026-11-18"
       },
       {
@@ -97,17 +97,17 @@
     ],
     "CLE": [
       {
-        "name": "Peyton Watson",
+        "name": "Jaylon Tyson",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Head",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
         "returnDate": "2026-11-18"
       },
       {
-        "name": "Jaylon Tyson",
+        "name": "Peyton Watson",
         "pos": "Guard",
-        "st": "Out",
-        "detail": "Ankle",
+        "st": "Day-To-Day",
+        "detail": "Head",
         "returnDate": "2026-11-18"
       },
       {
@@ -263,8 +263,22 @@
       {
         "name": "Amen Thompson",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
+        "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Marcus Smart",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Suspension",
+        "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Steven Adams",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-18"
       },
       {
@@ -275,25 +289,11 @@
         "returnDate": "2026-11-18"
       },
       {
-        "name": "Steven Adams",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Calf",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Julian Phillips",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Wrist",
-        "returnDate": "2026-11-16"
-      },
-      {
-        "name": "Marcus Smart",
-        "pos": "Guard",
-        "st": "Suspension",
-        "detail": "Suspension",
-        "returnDate": "2026-11-18"
+        "returnDate": "2026-11-17"
       }
     ],
     "IND": [
@@ -376,8 +376,15 @@
       {
         "name": "Isaiah Stewart",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
+        "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Ty Jerome",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hip",
         "returnDate": "2026-11-18"
       },
       {
@@ -395,13 +402,6 @@
         "returnDate": "2027-01-18"
       },
       {
-        "name": "Ty Jerome",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hip",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Richie Saunders",
         "pos": "Guard",
         "st": "Out",
@@ -411,17 +411,17 @@
     ],
     "MIA": [
       {
+        "name": "Nikola Jovic",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-18"
+      },
+      {
         "name": "Bam Adebayo",
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Hip",
-        "returnDate": "2026-11-18"
-      },
-      {
-        "name": "Nikola Jovic",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Illness",
         "returnDate": "2026-11-18"
       },
       {
@@ -450,6 +450,13 @@
     ],
     "MIN": [
       {
+        "name": "Jonathan Kuminga",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
+        "returnDate": "2026-11-17"
+      },
+      {
         "name": "Jaylen Clark",
         "pos": "Guard",
         "st": "Out",
@@ -473,17 +480,17 @@
     ],
     "NOP": [
       {
+        "name": "Bennedict Mathurin",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Foot",
+        "returnDate": "2026-11-18"
+      },
+      {
         "name": "Bryce McGowens",
         "pos": "Guard",
         "st": "Out",
         "detail": "Elbow",
-        "returnDate": "2026-11-18"
-      },
-      {
-        "name": "Bennedict Mathurin",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Foot",
         "returnDate": "2026-11-18"
       },
       {
@@ -552,7 +559,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-18"
+        "returnDate": "2026-11-22"
       },
       {
         "name": "Noah Penda",
@@ -578,14 +585,21 @@
     ],
     "PHI": [
       {
-        "name": "Dominick Barlow",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Back",
+        "name": "Jaylen Brown",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
         "returnDate": "2026-11-18"
       },
       {
         "name": "LeBron James",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
+        "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Dominick Barlow",
         "pos": "Forward",
         "st": "Out",
         "detail": "Back",
@@ -596,7 +610,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-18"
+        "returnDate": "2026-11-21"
       },
       {
         "name": "Ariel Hukporti",
@@ -711,7 +725,7 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Illness",
-        "returnDate": "2026-11-16"
+        "returnDate": "2026-11-20"
       },
       {
         "name": "Kawhi Leonard",
