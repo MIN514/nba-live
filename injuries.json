@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:20:34.881367+00:00",
+  "updated_at": "2026-11-18T17:12:58.294113+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -52,7 +52,7 @@
       {
         "name": "Grayson Allen",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Concussion",
         "returnDate": "2026-11-20"
       },
@@ -193,6 +193,20 @@
     ],
     "DET": [
       {
+        "name": "Taurean Prince",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Ronald Holland II",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-18"
+      },
+      {
         "name": "Isaiah Joe",
         "pos": "Guard",
         "st": "Out",
@@ -205,20 +219,6 @@
         "st": "Out",
         "detail": "Quadriceps",
         "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Taurean Prince",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-18"
-      },
-      {
-        "name": "Ronald Holland II",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-18"
       },
       {
         "name": "Jalen Duren",
@@ -293,13 +293,6 @@
         "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-18"
-      },
-      {
-        "name": "Julian Phillips",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Wrist",
-        "returnDate": "2026-11-17"
       }
     ],
     "IND": [
@@ -371,17 +364,17 @@
     ],
     "LAL": [
       {
-        "name": "Walker Kessler",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Lower Leg",
+        "name": "Austin Reaves",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Heel",
         "returnDate": "2026-11-18"
       },
       {
-        "name": "Austin Reaves",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Heel",
+        "name": "Walker Kessler",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Lower Leg",
         "returnDate": "2026-11-18"
       }
     ],
@@ -458,14 +451,14 @@
       {
         "name": "Zyon Pullin",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Quadriceps",
         "returnDate": "2026-11-19"
       },
       {
         "name": "Jonathan Kuminga",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Shoulder",
         "returnDate": "2026-11-19"
       },
@@ -639,7 +632,7 @@
       {
         "name": "Deni Avdija",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Foot",
         "returnDate": "2026-11-19"
       },
@@ -752,7 +745,7 @@
       {
         "name": "Jaxson Hayes",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-18"
       },
