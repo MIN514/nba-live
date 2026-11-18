@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:29:17.936356+00:00",
+  "updated_at": "2026-11-18T07:20:34.881367+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -49,6 +49,13 @@
     "BOS": [],
     "BKN": [],
     "CHA": [
+      {
+        "name": "Grayson Allen",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Concussion",
+        "returnDate": "2026-11-20"
+      },
       {
         "name": "Kon Knueppel",
         "pos": "Guard",
@@ -158,7 +165,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-11-30"
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Max Christie",
@@ -222,6 +229,13 @@
       }
     ],
     "GSW": [
+      {
+        "name": "Draymond Green",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Elbow",
+        "returnDate": "2026-11-18"
+      },
       {
         "name": "Al Horford",
         "pos": "Center",
@@ -357,21 +371,28 @@
     ],
     "LAL": [
       {
-        "name": "Austin Reaves",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Heel",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Walker Kessler",
         "pos": "Center",
         "st": "Out",
         "detail": "Lower Leg",
         "returnDate": "2026-11-18"
+      },
+      {
+        "name": "Austin Reaves",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Heel",
+        "returnDate": "2026-11-18"
       }
     ],
     "MEM": [
+      {
+        "name": "GG Jackson",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2027-01-18"
+      },
       {
         "name": "Isaiah Stewart",
         "pos": "Center",
@@ -392,13 +413,6 @@
         "st": "Out",
         "detail": "Back",
         "returnDate": "2026-11-25"
-      },
-      {
-        "name": "GG Jackson",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2027-01-18"
       },
       {
         "name": "Richie Saunders",
@@ -517,18 +531,18 @@
     "NYK": [],
     "OKC": [
       {
+        "name": "Thomas Sorber",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2027-01-31"
+      },
+      {
         "name": "Jaylin Williams",
         "pos": "Forward",
         "st": "Out",
         "detail": "Back",
         "returnDate": "2026-11-18"
-      },
-      {
-        "name": "Thomas Sorber",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-20"
       },
       {
         "name": "Cason Wallace",
@@ -625,9 +639,9 @@
       {
         "name": "Deni Avdija",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-11-17"
+        "returnDate": "2026-11-19"
       },
       {
         "name": "Chris Youngblood",
@@ -660,11 +674,11 @@
     ],
     "SAC": [
       {
-        "name": "Zach LaVine",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-18"
+        "name": "Maxime Raynaud",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-25"
       },
       {
         "name": "De'Andre Hunter",
@@ -681,13 +695,6 @@
         "returnDate": "2026-11-18"
       },
       {
-        "name": "Maxime Raynaud",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Knee",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Ben Simmons",
         "pos": "Guard",
         "st": "Out",
@@ -696,6 +703,13 @@
       }
     ],
     "SAS": [
+      {
+        "name": "Dylan Harper",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Undisclosed",
+        "returnDate": "2026-11-19"
+      },
       {
         "name": "Tobias Harris",
         "pos": "Forward",
