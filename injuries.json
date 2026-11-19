@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:51:28.590391+00:00",
+  "updated_at": "2026-11-19T12:57:40.255913+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -255,6 +255,13 @@
     ],
     "IND": [
       {
+        "name": "Braden Smith",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-20"
+      },
+      {
         "name": "Andrew Nembhard",
         "pos": "Guard",
         "st": "Out",
@@ -453,6 +460,13 @@
     ],
     "NYK": [],
     "OKC": [
+      {
+        "name": "Alex Caruso",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hip",
+        "returnDate": "2026-11-20"
+      },
       {
         "name": "Thomas Sorber",
         "pos": "Center",
@@ -694,13 +708,6 @@
     ],
     "UTA": [
       {
-        "name": "Jaxson Hayes",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-18"
-      },
-      {
         "name": "Lauri Markkanen",
         "pos": "Forward",
         "st": "Out",
@@ -728,7 +735,7 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Back",
-        "returnDate": "2026-11-18"
+        "returnDate": "2026-11-20"
       },
       {
         "name": "Tristan Vukcevic",
