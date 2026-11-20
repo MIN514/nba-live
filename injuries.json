@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T23:01:38.693569+00:00",
+  "updated_at": "2026-11-20T07:06:55.819344+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -233,16 +233,9 @@
       {
         "name": "Draymond Green",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-22"
-      },
-      {
-        "name": "LJ Cryer",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-19"
       },
       {
         "name": "Brandon Williams",
@@ -282,10 +275,10 @@
     ],
     "HOU": [
       {
-        "name": "Alperen Sengun",
+        "name": "Steven Adams",
         "pos": "Center",
         "st": "Day-To-Day",
-        "detail": "Eye",
+        "detail": "Quadriceps",
         "returnDate": "2026-11-20"
       },
       {
@@ -293,6 +286,13 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Ankle",
+        "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Alperen Sengun",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Eye",
         "returnDate": "2026-11-20"
       }
     ],
@@ -369,22 +369,22 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-11-20"
+        "returnDate": "2026-11-23"
       }
     ],
     "MEM": [
       {
-        "name": "Isaiah Stewart",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-19"
-      },
-      {
         "name": "Zach Edey",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
+        "returnDate": "2026-11-21"
+      },
+      {
+        "name": "Jerami Grant",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-21"
       },
       {
@@ -427,16 +427,16 @@
     ],
     "MIL": [
       {
-        "name": "Kyle Kuzma",
-        "pos": "Forward",
-        "st": "Out",
+        "name": "Myles Turner",
+        "pos": "Center",
+        "st": "Day-To-Day",
         "detail": "Shoulder",
         "returnDate": "2026-11-21"
       },
       {
-        "name": "Myles Turner",
-        "pos": "Center",
-        "st": "Out",
+        "name": "Kyle Kuzma",
+        "pos": "Forward",
+        "st": "Day-To-Day",
         "detail": "Shoulder",
         "returnDate": "2026-11-21"
       },
@@ -449,13 +449,6 @@
       }
     ],
     "MIN": [
-      {
-        "name": "Jonathan Kuminga",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Shoulder",
-        "returnDate": "2026-11-19"
-      },
       {
         "name": "Jaylen Clark",
         "pos": "Guard",
@@ -638,16 +631,9 @@
     ],
     "POR": [
       {
-        "name": "Chris Youngblood",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Heel",
-        "returnDate": "2026-11-21"
-      },
-      {
         "name": "Robert Williams III",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-21"
       },
@@ -656,14 +642,14 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Foot",
-        "returnDate": "2026-11-19"
+        "returnDate": "2026-11-21"
       },
       {
-        "name": "Toumani Camara",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-11-19"
+        "name": "Chris Youngblood",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Heel",
+        "returnDate": "2026-11-21"
       },
       {
         "name": "Vit Krejci",
@@ -688,6 +674,20 @@
       }
     ],
     "SAC": [
+      {
+        "name": "Precious Achiuwa",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Lower Leg",
+        "returnDate": "2026-11-20"
+      },
+      {
+        "name": "De'Andre Hunter",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Hip",
+        "returnDate": "2026-11-20"
+      },
       {
         "name": "Maxime Raynaud",
         "pos": "Center",
@@ -758,18 +758,18 @@
     ],
     "UTA": [
       {
+        "name": "Jusuf Nurkic",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "Lauri Markkanen",
         "pos": "Forward",
         "st": "Out",
         "detail": "Hand",
         "returnDate": "2027-01-04"
-      },
-      {
-        "name": "Jusuf Nurkic",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-20"
       },
       {
         "name": "Jaren Jackson Jr.",
