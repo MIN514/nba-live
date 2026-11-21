@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T01:28:02.788049+00:00",
+  "updated_at": "2026-11-21T12:35:25.589239+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -64,6 +64,13 @@
     ],
     "BKN": [
       {
+        "name": "Nolan Traore",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Grant Nelson",
         "pos": "Forward",
         "st": "Out",
@@ -72,13 +79,6 @@
       }
     ],
     "CHA": [
-      {
-        "name": "Brandon Miller",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-20"
-      },
       {
         "name": "Grant Williams",
         "pos": "Forward",
@@ -297,28 +297,21 @@
     ],
     "HOU": [
       {
-        "name": "Steven Adams",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Quadriceps",
-        "returnDate": "2026-11-20"
-      },
-      {
         "name": "Clint Capela",
         "pos": "Center",
         "st": "Out",
         "detail": "Ankle",
         "returnDate": "2026-11-23"
-      },
-      {
-        "name": "Alperen Sengun",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Eye",
-        "returnDate": "2026-11-20"
       }
     ],
     "IND": [
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-22"
+      },
       {
         "name": "Tyrese Haliburton",
         "pos": "Guard",
@@ -375,6 +368,13 @@
     ],
     "MEM": [
       {
+        "name": "Jerami Grant",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Calf",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Javon Small",
         "pos": "Guard",
         "st": "Out",
@@ -393,13 +393,6 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-21"
-      },
-      {
-        "name": "Jerami Grant",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Calf",
         "returnDate": "2026-11-21"
       },
       {
@@ -631,6 +624,13 @@
     ],
     "PHX": [
       {
+        "name": "Ryan Dunn",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Quadriceps",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Mark Williams",
         "pos": "Center",
         "st": "Out",
@@ -682,13 +682,6 @@
         "st": "Out",
         "detail": "Lower Leg",
         "returnDate": "2026-11-21"
-      },
-      {
-        "name": "De'Andre Hunter",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Hip",
-        "returnDate": "2026-11-20"
       },
       {
         "name": "Maxime Raynaud",
