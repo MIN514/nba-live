@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T06:39:44.220834+00:00",
+  "updated_at": "2026-11-22T16:13:49.852274+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -48,23 +48,23 @@
     ],
     "BOS": [
       {
-        "name": "Mitchell Robinson",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Illness",
+        "name": "Derrick White",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
         "returnDate": "2026-11-22"
       },
       {
-        "name": "Derrick White",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Shoulder",
+        "name": "Mitchell Robinson",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-22"
       },
       {
         "name": "Jayson Tatum",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Rest",
         "returnDate": "2026-11-22"
       }
@@ -117,17 +117,17 @@
     ],
     "CHI": [
       {
+        "name": "Norman Powell",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-28"
+      },
+      {
         "name": "Patrick Williams",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Thumb",
-        "returnDate": "2026-11-22"
-      },
-      {
-        "name": "Norman Powell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
         "returnDate": "2026-11-22"
       },
       {
@@ -179,14 +179,14 @@
       {
         "name": "P.J. Washington",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
         "returnDate": "2026-11-22"
       },
       {
         "name": "Tobi Lawal",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Groin",
         "returnDate": "2026-11-22"
       },
@@ -389,24 +389,24 @@
     ],
     "MEM": [
       {
-        "name": "Jerami Grant",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Calf",
-        "returnDate": "2026-11-23"
-      },
-      {
         "name": "Javon Small",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Personal",
         "returnDate": "2026-11-23"
       },
       {
         "name": "Cameron Boozer",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Ankle",
+        "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Jerami Grant",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-23"
       },
       {
@@ -483,14 +483,14 @@
       {
         "name": "Zion Williamson",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Thigh",
         "returnDate": "2026-11-23"
       },
       {
         "name": "Trey Murphy III",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-23"
       },
@@ -638,7 +638,14 @@
       {
         "name": "Dean Wade",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Jaylen Brown",
+        "pos": "Guard",
+        "st": "Day-To-Day",
         "detail": "Hamstring",
         "returnDate": "2026-11-23"
       },
@@ -647,13 +654,6 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Back",
-        "returnDate": "2026-11-23"
-      },
-      {
-        "name": "Jaylen Brown",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
         "returnDate": "2026-11-23"
       },
       {
