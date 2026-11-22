@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:37:36.330329+00:00",
+  "updated_at": "2026-11-22T06:39:44.220834+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -15,7 +15,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-22"
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Asa Newell",
@@ -117,6 +117,20 @@
     ],
     "CHI": [
       {
+        "name": "Patrick Williams",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Thumb",
+        "returnDate": "2026-11-22"
+      },
+      {
+        "name": "Norman Powell",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-22"
+      },
+      {
         "name": "Jalen Smith",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -165,9 +179,9 @@
       {
         "name": "P.J. Washington",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-21"
+        "returnDate": "2026-11-22"
       },
       {
         "name": "Tobi Lawal",
@@ -175,13 +189,6 @@
         "st": "Out",
         "detail": "Groin",
         "returnDate": "2026-11-22"
-      },
-      {
-        "name": "Walter Clayton Jr.",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-21"
       },
       {
         "name": "Dereck Lively II",
@@ -216,16 +223,23 @@
     ],
     "DET": [
       {
-        "name": "Ebuka Okorie",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Oblique",
-        "returnDate": "2026-11-22"
-      },
-      {
         "name": "Ronald Holland II",
         "pos": "Forward",
         "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-22"
+      },
+      {
+        "name": "Ebuka Okorie",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Oblique",
+        "returnDate": "2026-11-24"
+      },
+      {
+        "name": "Cade Cunningham",
+        "pos": "Guard",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-22"
       },
@@ -260,18 +274,11 @@
     ],
     "GSW": [
       {
-        "name": "Draymond Green",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Rest",
-        "returnDate": "2026-11-22"
-      },
-      {
         "name": "Brandon Williams",
         "pos": "Guard",
         "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-22"
+        "returnDate": "2026-11-25"
       },
       {
         "name": "Stephen Curry",
@@ -315,8 +322,15 @@
       {
         "name": "T.J. McConnell",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hamstring",
+        "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Pascal Siakam",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Hip",
         "returnDate": "2026-11-22"
       },
       {
@@ -467,6 +481,13 @@
     ],
     "NOP": [
       {
+        "name": "Zion Williamson",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Thigh",
+        "returnDate": "2026-11-23"
+      },
+      {
         "name": "Trey Murphy III",
         "pos": "Forward",
         "st": "Out",
@@ -504,41 +525,55 @@
     ],
     "NYK": [
       {
-        "name": "OG Anunoby",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Calf",
-        "returnDate": "2026-11-21"
-      },
-      {
         "name": "Karl-Anthony Towns",
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Illness",
-        "returnDate": "2026-11-21"
+        "returnDate": "2026-11-22"
       },
       {
         "name": "Jordan Clarkson",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Foot",
+        "returnDate": "2026-11-22"
+      },
+      {
+        "name": "OG Anunoby",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Calf",
         "returnDate": "2026-11-22"
       }
     ],
     "OKC": [
       {
-        "name": "Nikola Topic",
+        "name": "Shai Gilgeous-Alexander",
         "pos": "Guard",
         "st": "Day-To-Day",
-        "detail": "Hip",
+        "detail": "Back",
         "returnDate": "2026-11-22"
+      },
+      {
+        "name": "Nikola Topic",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hip",
+        "returnDate": "2026-11-23"
+      },
+      {
+        "name": "Jaylin Williams",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-23"
       },
       {
         "name": "Alex Caruso",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-22"
+        "returnDate": "2026-11-23"
       },
       {
         "name": "Thomas Sorber",
@@ -575,7 +610,7 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-29"
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Izaiyah Nelson",
@@ -654,13 +689,6 @@
         "returnDate": "2026-11-27"
       },
       {
-        "name": "Deni Avdija",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-11-21"
-      },
-      {
         "name": "Vit Krejci",
         "pos": "Guard",
         "st": "Out",
@@ -683,13 +711,6 @@
       }
     ],
     "SAC": [
-      {
-        "name": "Precious Achiuwa",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Lower Leg",
-        "returnDate": "2026-11-21"
-      },
       {
         "name": "Maxime Raynaud",
         "pos": "Center",
