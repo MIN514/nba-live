@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T19:28:58.016558+00:00",
+  "updated_at": "2026-11-25T03:31:32.379027+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -59,17 +59,24 @@
     ],
     "CHA": [
       {
-        "name": "Grant Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-25"
-      },
-      {
         "name": "Ryan Kalkbrenner",
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Hip",
+        "returnDate": "2026-11-25"
+      },
+      {
+        "name": "Dennis Schroder",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-12-12"
+      },
+      {
+        "name": "Sion James",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Undisclosed",
         "returnDate": "2026-11-25"
       },
       {
@@ -85,13 +92,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-12-12"
-      },
-      {
-        "name": "Dennis Schroder",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-25"
       }
     ],
     "CHI": [
@@ -142,13 +142,6 @@
         "returnDate": "2026-11-27"
       },
       {
-        "name": "P.J. Washington",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-24"
-      },
-      {
         "name": "Dereck Lively II",
         "pos": "Center",
         "st": "Out",
@@ -172,6 +165,13 @@
     ],
     "DEN": [],
     "DET": [
+      {
+        "name": "Cade Cunningham",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Ebuka Okorie",
         "pos": "Guard",
@@ -199,16 +199,16 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-11-30"
-      },
-      {
-        "name": "Cade Cunningham",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-24"
       }
     ],
     "GSW": [
+      {
+        "name": "Yaxel Lendeborg",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-25"
+      },
       {
         "name": "Brandon Williams",
         "pos": "Guard",
@@ -310,6 +310,13 @@
     ],
     "MEM": [
       {
+        "name": "Scotty Pippen Jr.",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-12-12"
+      },
+      {
         "name": "Cameron Boozer",
         "pos": "Forward",
         "st": "Out",
@@ -329,13 +336,6 @@
         "st": "Out",
         "detail": "Foot",
         "returnDate": "2027-01-18"
-      },
-      {
-        "name": "Scotty Pippen Jr.",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Back",
-        "returnDate": "2026-11-25"
       },
       {
         "name": "Richie Saunders",
@@ -403,48 +403,62 @@
     ],
     "NYK": [
       {
+        "name": "Miles McBride",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-25"
+      },
+      {
         "name": "Jordan Clarkson",
         "pos": "Guard",
         "st": "Out",
         "detail": "Foot",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "Josh Hart",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Shoulder",
         "returnDate": "2026-11-25"
       },
       {
         "name": "OG Anunoby",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Calf",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-27"
       },
       {
-        "name": "Miles McBride",
-        "pos": "Guard",
+        "name": "Karl-Anthony Towns",
+        "pos": "Center",
         "st": "Day-To-Day",
-        "detail": "Abdomen",
+        "detail": "Knee",
         "returnDate": "2026-11-25"
       }
     ],
     "OKC": [
       {
-        "name": "Jaylin Williams",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-25"
-      },
-      {
-        "name": "Aday Mara",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Lower Leg",
-        "returnDate": "2026-11-25"
-      },
-      {
         "name": "Nikola Topic",
         "pos": "Guard",
         "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-28"
+      },
+      {
+        "name": "Jaylin Williams",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Back",
+        "returnDate": "2026-11-28"
+      },
+      {
+        "name": "Aday Mara",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Lower Leg",
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Jalen Williams",
@@ -452,13 +466,6 @@
         "st": "Out",
         "detail": "Leg",
         "returnDate": "2027-03-02"
-      },
-      {
-        "name": "Alex Caruso",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hip",
-        "returnDate": "2026-11-25"
       },
       {
         "name": "Thomas Sorber",
@@ -518,7 +525,7 @@
         "pos": "Center",
         "st": "Day-To-Day",
         "detail": "Illness",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Ariel Hukporti",
@@ -585,17 +592,17 @@
     ],
     "SAS": [
       {
-        "name": "Victor Wembanyama",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-25"
-      },
-      {
         "name": "De'Aaron Fox",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Lower Leg",
+        "returnDate": "2026-11-25"
+      },
+      {
+        "name": "Victor Wembanyama",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Back",
         "returnDate": "2026-11-25"
       },
       {
@@ -622,18 +629,18 @@
     ],
     "TOR": [
       {
-        "name": "Nate Bittle",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-27"
-      },
-      {
         "name": "Kawhi Leonard",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-12-03"
+      },
+      {
+        "name": "Nate Bittle",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-27"
       },
       {
         "name": "RJ Barrett",
@@ -674,13 +681,6 @@
       }
     ],
     "WAS": [
-      {
-        "name": "Tre Mann",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-24"
-      },
       {
         "name": "Tristan Vukcevic",
         "pos": "Forward",
