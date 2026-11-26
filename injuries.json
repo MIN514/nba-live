@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T08:25:17.604596+00:00",
+  "updated_at": "2026-11-26T21:26:44.432265+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -166,6 +166,13 @@
     "DEN": [],
     "DET": [
       {
+        "name": "Jalen Duren",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-30"
+      },
+      {
         "name": "Cade Cunningham",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -192,13 +199,6 @@
         "st": "Out",
         "detail": "Quadriceps",
         "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Jalen Duren",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-30"
       }
     ],
     "GSW": [
@@ -338,7 +338,22 @@
         "returnDate": "2026-12-01"
       }
     ],
-    "MIA": [],
+    "MIA": [
+      {
+        "name": "Giannis Antetokounmpo",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "Andrew Wiggins",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-27"
+      }
+    ],
     "MIL": [],
     "MIN": [
       {
@@ -482,6 +497,13 @@
       }
     ],
     "ORL": [
+      {
+        "name": "Colin Castleton",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Calf",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Jonathan Isaac",
         "pos": "Forward",
@@ -627,6 +649,13 @@
       }
     ],
     "TOR": [
+      {
+        "name": "Alijah Martin",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Kawhi Leonard",
         "pos": "Forward",
