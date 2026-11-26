@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:17:00.187270+00:00",
+  "updated_at": "2026-11-26T08:25:17.604596+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -50,6 +50,13 @@
     ],
     "BKN": [
       {
+        "name": "Moritz Wagner",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "Nolan Traore",
         "pos": "Guard",
         "st": "Out",
@@ -61,7 +68,7 @@
       {
         "name": "Ryan Kalkbrenner",
         "pos": "Center",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Hip",
         "returnDate": "2026-11-28"
       },
@@ -91,7 +98,7 @@
       {
         "name": "Jalen Smith",
         "pos": "Forward",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Illness",
         "returnDate": "2026-11-28"
       },
@@ -196,20 +203,6 @@
     ],
     "GSW": [
       {
-        "name": "Yaxel Lendeborg",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Illness",
-        "returnDate": "2026-11-25"
-      },
-      {
-        "name": "Brandon Williams",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
-        "returnDate": "2026-11-25"
-      },
-      {
         "name": "Stephen Curry",
         "pos": "Guard",
         "st": "Out",
@@ -303,6 +296,13 @@
     ],
     "MEM": [
       {
+        "name": "Zach Edey",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "Scotty Pippen Jr.",
         "pos": "Guard",
         "st": "Out",
@@ -342,6 +342,13 @@
     "MIL": [],
     "MIN": [
       {
+        "name": "LaMelo Ball",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "Donte DiVincenzo",
         "pos": "Guard",
         "st": "Out",
@@ -369,7 +376,7 @@
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Knee",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-12-01"
       },
       {
         "name": "Trendon Watford",
@@ -395,17 +402,24 @@
     ],
     "NYK": [
       {
+        "name": "Miles McBride",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Groin",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "Andre Drummond",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Head",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "OG Anunoby",
         "pos": "Forward",
         "st": "Out",
         "detail": "Calf",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Miles McBride",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Groin",
         "returnDate": "2026-11-27"
       },
       {
@@ -499,17 +513,17 @@
     ],
     "PHI": [
       {
-        "name": "Jaylen Brown",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hamstring",
+        "name": "Joel Embiid",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Illness",
         "returnDate": "2026-11-27"
       },
       {
-        "name": "Joel Embiid",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Illness",
+        "name": "Jaylen Brown",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
         "returnDate": "2026-11-27"
       },
       {
@@ -563,7 +577,7 @@
       {
         "name": "Zach LaVine",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-29"
       },
@@ -588,14 +602,7 @@
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Lower Leg",
-        "returnDate": "2026-11-25"
-      },
-      {
-        "name": "Victor Wembanyama",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Back",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Dylan Harper",
