@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T14:15:41.465974+00:00",
+  "updated_at": "2026-11-26T00:17:00.187270+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -61,9 +61,16 @@
       {
         "name": "Ryan Kalkbrenner",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-28"
+      },
+      {
+        "name": "Grayson Allen",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Concussion",
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Dennis Schroder",
@@ -71,20 +78,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-12-12"
-      },
-      {
-        "name": "Sion James",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Undisclosed",
-        "returnDate": "2026-11-25"
-      },
-      {
-        "name": "Grayson Allen",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Concussion",
-        "returnDate": "2026-11-25"
       },
       {
         "name": "Kon Knueppel",
@@ -98,9 +91,9 @@
       {
         "name": "Jalen Smith",
         "pos": "Forward",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-25"
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Norman Powell",
@@ -168,7 +161,7 @@
       {
         "name": "Cade Cunningham",
         "pos": "Guard",
-        "st": "Out",
+        "st": "Day-To-Day",
         "detail": "Knee",
         "returnDate": "2026-11-27"
       },
@@ -345,15 +338,7 @@
         "returnDate": "2026-12-01"
       }
     ],
-    "MIA": [
-      {
-        "name": "Giannis Antetokounmpo",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Groin",
-        "returnDate": "2026-11-25"
-      }
-    ],
+    "MIA": [],
     "MIL": [],
     "MIN": [
       {
@@ -380,6 +365,13 @@
     ],
     "NOP": [
       {
+        "name": "Julian Reese",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-25"
+      },
+      {
         "name": "Trendon Watford",
         "pos": "Forward",
         "st": "Out",
@@ -403,27 +395,6 @@
     ],
     "NYK": [
       {
-        "name": "Miles McBride",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Groin",
-        "returnDate": "2026-11-25"
-      },
-      {
-        "name": "Jordan Clarkson",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Josh Hart",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Shoulder",
-        "returnDate": "2026-11-25"
-      },
-      {
         "name": "OG Anunoby",
         "pos": "Forward",
         "st": "Out",
@@ -431,11 +402,18 @@
         "returnDate": "2026-11-27"
       },
       {
-        "name": "Karl-Anthony Towns",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-25"
+        "name": "Miles McBride",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Groin",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "Jordan Clarkson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-27"
       }
     ],
     "OKC": [
@@ -521,9 +499,16 @@
     ],
     "PHI": [
       {
+        "name": "Jaylen Brown",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "Joel Embiid",
         "pos": "Center",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Illness",
         "returnDate": "2026-11-27"
       },
@@ -575,6 +560,13 @@
       }
     ],
     "SAC": [
+      {
+        "name": "Zach LaVine",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-29"
+      },
       {
         "name": "Maxime Raynaud",
         "pos": "Center",
