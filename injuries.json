@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T21:26:44.432265+00:00",
+  "updated_at": "2026-11-27T08:19:58.221426+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -8,7 +8,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Hip",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-29"
       },
       {
         "name": "Asa Newell",
@@ -54,7 +54,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Nolan Traore",
@@ -139,45 +139,52 @@
         "pos": "Forward",
         "st": "Out",
         "detail": "Groin",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Dereck Lively II",
-        "pos": "Center",
-        "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-30"
       },
       {
         "name": "Sergio de Larrea",
         "pos": "Forward",
         "st": "Out",
         "detail": "Knee",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-12-14"
+      },
+      {
+        "name": "Dereck Lively II",
+        "pos": "Center",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-30"
       },
       {
         "name": "Tarik Biberovic",
         "pos": "Forward",
         "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-12-04"
       }
     ],
     "DEN": [],
     "DET": [
+      {
+        "name": "Duncan Robinson",
+        "pos": "Forward",
+        "st": "Out",
+        "detail": "Quadriceps",
+        "returnDate": "2026-11-29"
+      },
+      {
+        "name": "Cade Cunningham",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Knee",
+        "returnDate": "2026-11-29"
+      },
       {
         "name": "Jalen Duren",
         "pos": "Center",
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-11-30"
-      },
-      {
-        "name": "Cade Cunningham",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-11-27"
       },
       {
         "name": "Ebuka Okorie",
@@ -192,13 +199,6 @@
         "st": "Out",
         "detail": "Knee",
         "returnDate": "2026-12-26"
-      },
-      {
-        "name": "Duncan Robinson",
-        "pos": "Forward",
-        "st": "Out",
-        "detail": "Quadriceps",
-        "returnDate": "2026-11-27"
       }
     ],
     "GSW": [
@@ -234,6 +234,20 @@
     "HOU": [],
     "IND": [
       {
+        "name": "Kelly Oubre Jr.",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hand",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "Larry Nance Jr.",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Ankle",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "T.J. McConnell",
         "pos": "Guard",
         "st": "Day-To-Day",
@@ -246,20 +260,6 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-12-13"
-      },
-      {
-        "name": "Aaron Nesmith",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Foot",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Larry Nance Jr.",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-27"
       },
       {
         "name": "Ben Sheppard",
@@ -295,6 +295,13 @@
       }
     ],
     "MEM": [
+      {
+        "name": "Isaiah Stewart",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Hip",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Zach Edey",
         "pos": "Center",
@@ -387,13 +394,6 @@
     ],
     "NOP": [
       {
-        "name": "Julian Reese",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Knee",
-        "returnDate": "2026-12-01"
-      },
-      {
         "name": "Trendon Watford",
         "pos": "Forward",
         "st": "Out",
@@ -408,11 +408,18 @@
         "returnDate": "2026-11-27"
       },
       {
+        "name": "Julian Reese",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-12-01"
+      },
+      {
         "name": "Dejounte Murray",
         "pos": "Guard",
         "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-29"
       }
     ],
     "NYK": [
@@ -424,10 +431,10 @@
         "returnDate": "2026-11-27"
       },
       {
-        "name": "Andre Drummond",
-        "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Head",
+        "name": "Jordan Clarkson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Foot",
         "returnDate": "2026-11-27"
       },
       {
@@ -438,10 +445,10 @@
         "returnDate": "2026-11-27"
       },
       {
-        "name": "Jordan Clarkson",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Foot",
+        "name": "Andre Drummond",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Head",
         "returnDate": "2026-11-27"
       }
     ],
@@ -544,9 +551,9 @@
       {
         "name": "Jaylen Brown",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Hamstring",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-28"
       },
       {
         "name": "Ariel Hukporti",
@@ -571,7 +578,7 @@
         "pos": "Guard",
         "st": "Out",
         "detail": "Heel",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-29"
       },
       {
         "name": "Vit Krejci",
@@ -620,18 +627,18 @@
     ],
     "SAS": [
       {
+        "name": "Dylan Harper",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Hip",
+        "returnDate": "2026-11-27"
+      },
+      {
         "name": "De'Aaron Fox",
         "pos": "Guard",
         "st": "Day-To-Day",
         "detail": "Lower Leg",
         "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Dylan Harper",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Hip",
-        "returnDate": "2026-12-13"
       },
       {
         "name": "Tobias Harris",
@@ -691,7 +698,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Foot",
-        "returnDate": "2026-11-29"
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Lauri Markkanen",
