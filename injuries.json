@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:19:58.221426+00:00",
+  "updated_at": "2026-11-27T21:11:20.548718+00:00",
   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries",
   "teams": {
     "ATL": [
@@ -45,7 +45,7 @@
         "pos": "Center",
         "st": "Out",
         "detail": "Illness",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-29"
       }
     ],
     "BKN": [
@@ -96,6 +96,13 @@
     ],
     "CHI": [
       {
+        "name": "Noa Essengue",
+        "pos": "Forward",
+        "st": "Day-To-Day",
+        "detail": "Thumb",
+        "returnDate": "2026-11-28"
+      },
+      {
         "name": "Jalen Smith",
         "pos": "Forward",
         "st": "Day-To-Day",
@@ -134,6 +141,13 @@
       }
     ],
     "DAL": [
+      {
+        "name": "Kyrie Irving",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Knee",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Tobi Lawal",
         "pos": "Forward",
@@ -234,24 +248,10 @@
     "HOU": [],
     "IND": [
       {
-        "name": "Kelly Oubre Jr.",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hand",
-        "returnDate": "2026-11-27"
-      },
-      {
         "name": "Larry Nance Jr.",
         "pos": "Forward",
         "st": "Day-To-Day",
         "detail": "Ankle",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "T.J. McConnell",
-        "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Hamstring",
         "returnDate": "2026-11-27"
       },
       {
@@ -260,6 +260,20 @@
         "st": "Out",
         "detail": "Hamstring",
         "returnDate": "2026-12-13"
+      },
+      {
+        "name": "Kelly Oubre Jr.",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hand",
+        "returnDate": "2026-11-27"
+      },
+      {
+        "name": "T.J. McConnell",
+        "pos": "Guard",
+        "st": "Day-To-Day",
+        "detail": "Hamstring",
+        "returnDate": "2026-11-27"
       },
       {
         "name": "Ben Sheppard",
@@ -285,15 +299,7 @@
         "returnDate": "2027-03-02"
       }
     ],
-    "LAL": [
-      {
-        "name": "Austin Reaves",
-        "pos": "Guard",
-        "st": "Out",
-        "detail": "Heel",
-        "returnDate": "2026-11-27"
-      }
-    ],
+    "LAL": [],
     "MEM": [
       {
         "name": "Isaiah Stewart",
@@ -352,23 +358,24 @@
         "st": "Day-To-Day",
         "detail": "Groin",
         "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Andrew Wiggins",
-        "pos": "Forward",
-        "st": "Day-To-Day",
-        "detail": "Ankle",
-        "returnDate": "2026-11-27"
       }
     ],
-    "MIL": [],
+    "MIL": [
+      {
+        "name": "Kasparas Jakucionis",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Ankle",
+        "returnDate": "2026-11-28"
+      }
+    ],
     "MIN": [
       {
         "name": "LaMelo Ball",
         "pos": "Guard",
-        "st": "Day-To-Day",
+        "st": "Out",
         "detail": "Ankle",
-        "returnDate": "2026-11-27"
+        "returnDate": "2026-11-29"
       },
       {
         "name": "Donte DiVincenzo",
@@ -426,30 +433,37 @@
       {
         "name": "Miles McBride",
         "pos": "Guard",
-        "st": "Day-To-Day",
-        "detail": "Groin",
-        "returnDate": "2026-11-27"
-      },
-      {
-        "name": "Jordan Clarkson",
-        "pos": "Guard",
         "st": "Out",
-        "detail": "Foot",
-        "returnDate": "2026-11-27"
+        "detail": "Groin",
+        "returnDate": "2026-11-29"
       },
       {
         "name": "OG Anunoby",
         "pos": "Forward",
         "st": "Out",
         "detail": "Calf",
+        "returnDate": "2026-11-29"
+      },
+      {
+        "name": "Jordan Clarkson",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Foot",
+        "returnDate": "2026-11-29"
+      },
+      {
+        "name": "Karl-Anthony Towns",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Abdomen",
         "returnDate": "2026-11-27"
       },
       {
         "name": "Andre Drummond",
         "pos": "Center",
-        "st": "Day-To-Day",
-        "detail": "Head",
-        "returnDate": "2026-11-27"
+        "st": "Out",
+        "detail": "Concussion",
+        "returnDate": "2026-11-29"
       }
     ],
     "OKC": [
@@ -574,6 +588,13 @@
     ],
     "POR": [
       {
+        "name": "Damian Lillard",
+        "pos": "Guard",
+        "st": "Out",
+        "detail": "Calf",
+        "returnDate": "2026-11-29"
+      },
+      {
         "name": "Chris Youngblood",
         "pos": "Guard",
         "st": "Out",
@@ -686,6 +707,13 @@
       }
     ],
     "UTA": [
+      {
+        "name": "Mo Bamba",
+        "pos": "Center",
+        "st": "Day-To-Day",
+        "detail": "Illness",
+        "returnDate": "2026-11-27"
+      },
       {
         "name": "Jaxson Hayes",
         "pos": "Center",
